@@ -1,110 +1,102 @@
-# DSI Course for Bash, Git and GitHub
+# Deep Learning
 
 ## Contents:
-1. [Description](https://github.com/rachaellam/dsi-workshop#description)
-2. [Learning Outcomes](https://github.com/rachaellam/dsi-workshop#learning-outcomes)
-3. [Logistics](https://github.com/rachaellam/dsi-workshop#logistics)
-4. [Marking Scheme](https://github.com/rachaellam/dsi-workshop#marking-scheme)
-5. [Policies](https://github.com/rachaellam/dsi-workshop#policies)
-6. [Folder Structure](https://github.com/rachaellam/dsi-workshop#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/rachaellam/dsi-workshop#acknowledgements-and-contributions)
+1. [Description](https://github.com/UofT-DSI/estimation_machine_learning_testing#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/estimation_machine_learning_testing#learning-outcomes)
+3. [Logistics](https://github.com/UofT-DSI/estimation_machine_learning_testing#logistics)
+4. [Class Schedule](https://github.com/UofT-DSI/estimation_machine_learning_testing#class-schedule)
+5. [Grading Scheme](https://github.com/UofT-DSI/estimation_machine_learning_testing#grading-scheme)
+6. [Acknowledgements](https://github.com/UofT-DSI/estimation_machine_learning_testing#acknowledgements)
 
-## Description:
-The course was created by the University of Toronto's Data Science Institute. The beginning of the course will introduce the basic language of Unix shell including how to navigate and manipulate files and directories. Learners will then learn certain commands, how to create scripts and write basic functions using pipes, filters and loops. 
-
-The next portion of the course will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
-
-Finally, learners will determine how to problem-solve by identifying where the issue is and how to search with Google and Stack Overflow. This will then lead to the topic of reproducibility and how to contribute by commenting code and writing documentation.
-
-This course is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science skills for their career.
+## Description
+This Deep Learning course offers both fundamental understanding and practical skills necessary to develop, implement, test, and validate various deep learning models. The curriculum delves into the core concepts of Deep Learning, emphasizing its application across diverse domains. Students will explore the intricacies of neural networks, backpropagation, and the advanced architectures used in image processing, natural language processing, and more.
 
 ## Learning Outcomes
-Students will know how to...
-1. Access the terminal and write scripts using basic commands, variables, pipes, filters and loops. This will be assessed in Assignment 1.
-2. Use version control to preserve personal work, access and edit pervious code versions, collaborate with others, and find and debug errors. This will be assessed in Assignment 2.
-3. Solve problems independently by identifying issues, researching, or properly formulating questions using components of reproducibility. This will be assessed in both Assignment 1 and Assignment 2.
-4. Synthesize all work within wider discussions of ethics and inequity. Students will actively scrutinize who is and isn't in our datasets and develop knowledge of past abuses of power to better engage their work with ethical considerations. This will be assessed in Assignment 2.
+By the end of this Deep Learning course, students will:
+1. Understand and apply principles of neural networks, including architectures like CNNs and RNNs.
+2. Implement deep learning models for tasks in image processing, NLP, and recommendation systems.
+3. Utilize advanced techniques such as sequence-to-sequence models and attention mechanisms.
+4. Address challenges in model training, imbalanced classification, and metric learning.
+5. Gain proficiency in Keras and TensorFlow, emphasizing reproducible research.
+6. Acknowledge ethical implications of deep learning models and communicate these effectively to diverse audiences.
 
 ## Logistics
 
 ### Course Contacts
-* Instructor: [**Name**] [Pronouns] [degree]. hyperlinked email
-  * Email etiquette
-  * Other comments 
-* TA: [**Name**] [pronouns] [degree]. hyperlinkedEmail
+* Instructor: Alex Olson [alex.olson@utoronto.ca](mailto:alex.olson@utoronto.ca)
+* TA: Jun Ni Du [junni.du@mail.utoronto.ca](mailto:junni.du@mail.utoronto.ca)
 
-### Delivery instructions
-The workshop will be held over three weeks, three days a week. Two of the three days will be 2-hours long and the last day will be 3-hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
+### Course Materials
+This course's materials are adapted from the Deep Learning course taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science). The course includes comprehensive lectures and lab notebooks covering fundamental and advanced topics in Deep Learning. While there is no designated textbook for this course, the adapted materials provide a thorough exploration of the subject, incorporating a blend of theoretical knowledge and practical applications.
 
 ### Technology Requirements
-1. Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+Our course uses Zoom for synchronous lectures and tutorials. For practical components, we focus on Python and Jupyter Notebooks. We recommend using [Google Colab](https://colab.research.google.com/) for these sections, which will be the main platform for support and troubleshooting. However, students have the flexibility to run notebooks on alternative services or their own computers. 
+
+### Classes
+The course spans three weeks with a total of ten classes, each from 6 PM to 8:30 PM EST. Below is the class schedule formatted as a table:
+
+| Week | Dates               | Days of the Week               |
+|------|---------------------|--------------------------------|
+| 1    | Starting 29th Jan   | Monday, Tuesday, Wednesday, Thursday |
+| 2    | Starting 5th Feb    | Monday, Tuesday, Wednesday     |
+| 3    | Starting 12th Feb   | Tuesday, Wednesday, Thursday   |
+
+Classes will include lectures using prepared slides and live coding sessions. All slides will be accessible online prior to lectures. Students should actively participate in coding alongside the instructor in real-time and are encouraged to ask questions. 
+
+### Tutorial
+Tutorial sessions are on the same date as each class. Tutorials will take place 30 minutes before and after each session. Tutorial attendance is optional, and organization is unstructured. The tutorial is the best place for questions/issues pertaining to software, homework, and assignments.
+
+## Class Schedule
+
+### Class Topics
+
+| Class | Date                | Topic                                                       | Slides | Workbooks |
+|-------|---------------------|-------------------------------------------------------------|--------|-----------|
+| 1     | Monday, 29th Jan    | Introduction to Deep Learning                               |        |           |
+| 2     | Tuesday, 30th Jan   | Neural Networks and Backpropagation                         |        |           |
+| 3     | Wednesday, 31st Jan | Embeddings and Recommender Systems                          |        |           |
+| 4     | Thursday, 1st Feb   | Convolutional Neural Networks for Image Classification      |        |           |
+| 5     | Monday, 5th Feb     | Deep Learning for Object Detection and Image Segmentation   |        |           |
+| 6     | Tuesday, 6th Feb    | Recurrent Neural Networks and NLP                           |        |           |
+| 7     | Wednesday, 7th Feb  | Sequence to sequence, attention and memory                  |        |           |
+| 8     | Tuesday, 13th Feb   | Expressivity, Optimization and Generalization              |        |           |
+| 9     | Wednesday, 14th Feb | Imbalanced classification and metric learning               |        |           |
+| 10    | Thursday, 15th Feb  | Unsupervised Deep Learning and Generative models            |        |           |
 
 
-### Lesson Schedule
-| Lesson | Topic                                                                                        | Assignments      | Resources  |
-|--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Unix Shell I <br>(introducing the Shell, introductory commands, files and directories)       | [Assignment 1]() | [Slides]() |
-| 2      | Unix Shell II<br>(input/output and pipes/filters)                                            | [Assignment 1]() | [Slides]() |
-| 3      | Unix Shell III<br>(shell scripts, shell functions, parameters, flow control)                 | [Assignment 1]() | [Slides]() |
-| 4      | Version Control and GitHub I<br>(introducing version control and GitHub, basic Git commands) | [Assignment 2]() | [Slides]() |
-| 5      | Version Control and GitHub II<br>(remote repositories; branching)                            | [Assignment 2]() | [Slides]() |
-| 6      | Version Control and GitHub III <br>(collaborating, dealing with conflicts)                   | [Assignment 2]() | [Slides]() |
-| 7      | Problem solve, reproducibility, ethics, inequity                                             | [Assignment 1]() <br> [Assignment 2]() | [Slides]() |
-| 8      | Professional Skills - Industry Case Study                                                    | [Assignment 2]() | [Slides]() |
-| 9      | Data Science Foundations - Review and Practice                                               |                  | [Slides]() |
+## Grading Scheme
 
-## Marking Scheme
-| Assessment       | Weight | Description | Due Date |
-|------------------|--------|-------------|----------|
-| [Assignment 1]() |        |             |          |
-| [Assignment 2]() |        |             |          |
-|                  |        |             |          |
+The grading for this course is based on two components: assignments and class participation, including the completion of Jupyter notebooks. The grading scheme is as follows:
 
-## Policies
-The course is a live-coding class. Students are expected to follow along with the coding, creating files and folders to navigate and manipulate. Students should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available for students to reference, they should be referenced before or after class, as during class will be dedicated to coding with the instructor.
+| Assessment       | Number | Individual Weight | Cumulative Weight |
+|------------------|--------|-------------------|-------------------|
+| Assignments      | 2      | 35%               | 70%               |
+| Jupyter Notebooks | 10     | 2%                | 20%               |
+| Participation    | NA     | NA                | 10%               |
 
-**How to submit assignments, late policy, academic integrity.**
+- Assignments consist of two major tasks completed at the end of the first two weeks.
+- Jupyter Notebooks are to be completed throughout the course. While not directly contributing to the grade percentage, completion is required for a passing grade.
+- Participation includes engagement in class discussions, activities, and overall contribution to the course environment.
 
-## Folder Structure
-Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
-### 1 *assignments*:
-This folder contains the assignments for the workshop. Students are expected to complete them one week after the content has been delivered.
+**Assignments**
 
-### 2. *homework*:
-This folder contains homework for students to practice Unix and Git/GitHub workshops. Please complete the Unix Shell homework in the first week, and the Git/GitHub homework in the second.
+Assignments are a vital part of this course, focusing on the application of deep learning concepts. Two main assignments are scheduled, one at the end of each of the first two weeks. These assignments will be introduced in class and can be discussed with the instructor or TA during office hours or via email. They should be completed independently and submitted through the designated Google Forms links, following the naming convention `firstname_lastname_a#`. Please request extensions well in advance.
 
-There are pdf copies of the homework and markdown files, which can be edited. The homework can change based on the amount of content that was completed each day.
+| Assessment   | Content           | Due Date                            | Submission Link |
+|--------------|-------------------|-------------------------------------|-----------------|
+| Assignment 1 | Week 1 Topics     | Sunday, 4th February, by 11:59:59 PM EST | [Link to be added] |
+| Assignment 2 | Week 2 Topics     | Monday, 12th February, by 11:59:59 PM EST | [Link to be added] |
 
-Homework is just a suggestion but will help students throughout the workshop, as content is cumulative and will only get more difficult. Unfortunately, there is not enough time to review previous content each class so while this homework is **not** graded, it is highly recommended.
+**Notebook Completion**
 
-### 3. *lessons*:
-This folder contains the pdf and html version of the slides. Either the pdf slides or the html slides can be used when teaching. If slides are edited to contain any gifs, the instructor will need to use the html slides so that the gifs are active.
+Students are expected to complete the Jupyter notebooks associated with each class. Completion includes actively coding along with the instructor and answering any questions in the notebooks. These notebooks are due by the end of the course, but it is highly recommended to complete them as you progress through the material to stay on top of the content. Notebooks are to be submitted for pass/fail grading.
 
-pdf slides should be referenced before class to prepare or after class to review. During class will be live-coding, therefore, there is no need to follow them during class. They contain all information that was discussed in class and are a great resource in the future if students need to reassess their knowledge.
+**Note:** If any content in the assignments or notebooks is related to topics not covered in class due to schedule changes, those parts will be excluded from grading. Such exclusions will be clearly communicated before the assignment due date.
 
-### 4. *post-course*:
-This folder contains the exit surveys for students to complete. It holds both the md and docx versions of the survey.
+**Participation**
 
-### 5. *slides-resources*:
-This folder contains all editable slides. To edit, download the entire folder, including the *pics* folder as this folder contains the pictures which are relationally referenced in the markdown files.
+We hope all members in the course regularly participate. We define participation broadly, and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
-To change a photo, edit the markdown where photos are referenced.
-
-Example: 
-
-Change `![w:1150 center](pics/github.png)` to `![bg](pics/github.png)`
-
-To add a photo, add photo to the *pics* folder and reference it within the markdown file.
-
-Example:
-
-Added photo labelled "git_commit.png" will be referenced in markdown file as `![w:1000 left](pics/git_commit.png)`
-
-## Acknowledgements and Contributions
-## Achnowledgements
-* Who helped make theses slides
-* We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
-### Contributions 
-* `bash-git-github` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the [GitHub
-issues](https://github.com/anjalisilva/bash-git-github/issues).
+## Acknowledgements
+This course was developed by Alex Olson, under supervision from Rohan Alexander and Curtis Norman. The original content and structure of the course are adapted from the Deep Learning course taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science), built and maintained by Olivier Grisel and Charles Ollion.
