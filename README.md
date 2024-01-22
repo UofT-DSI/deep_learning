@@ -1,12 +1,21 @@
 # Deep Learning
 
 ## Contents:
-1. [Description](https://github.com/UofT-DSI/estimation_machine_learning_testing#description)
-2. [Learning Outcomes](https://github.com/UofT-DSI/estimation_machine_learning_testing#learning-outcomes)
-3. [Logistics](https://github.com/UofT-DSI/estimation_machine_learning_testing#logistics)
-4. [Class Schedule](https://github.com/UofT-DSI/estimation_machine_learning_testing#class-schedule)
-5. [Grading Scheme](https://github.com/UofT-DSI/estimation_machine_learning_testing#grading-scheme)
-6. [Acknowledgements](https://github.com/UofT-DSI/estimation_machine_learning_testing#acknowledgements)
+1. [Description](#description)
+2. [Learning Outcomes](#learning-outcomes)
+3. [Logistics](#logistics)
+    1. [Course Contacts](#course-contacts)
+    2. [Course Materials](#course-materials)
+    3. [Technology Requirements](#technology-requirements)
+    4. [Classes](#classes)
+    5. [Tutorial](#tutorial)
+4. [Class Schedule](#class-schedule)
+5. [Grading Scheme](#grading-scheme)
+    1. [Assignments](#assignments)
+    2. [Notebook Completion](#notebook-completion)
+    3. [Participation](#participation)
+4. [Acknowledgements](#acknowledgements)
+
 
 ## Description
 This Deep Learning course offers both fundamental understanding and practical skills necessary to develop, implement, test, and validate various deep learning models. The curriculum delves into the core concepts of Deep Learning, emphasizing its application across diverse domains. Students will explore the intricacies of neural networks, backpropagation, and the advanced architectures used in image processing, natural language processing, and more.
