@@ -59,9 +59,9 @@ Tutorial sessions are on the same date as each class. Tutorials will take place 
 
 ### Class Topics
 
-| Class | Date                | Topic                                                       | Slides | Workbooks |
-|-------|---------------------|-------------------------------------------------------------|--------|-----------|
-| 1     | Monday, 29th Jan    | Introduction to Deep Learning                               |        |           |
+| Class | Date                | Topic                           | Slides                           | Workbooks                     |
+|-------|---------------------|---------------------------------|----------------------------------|-------------------------------|
+| 1     | Monday, 29th Jan    | Introduction to Deep Learning   | [Lecture 1 Slides](slides/Lecture_1.pdf) | [Lab 1 Workbook](notebooks/Lab_1.ipynb) - [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_1.ipynb) |
 | 2     | Tuesday, 30th Jan   | Neural Networks and Backpropagation                         |        |           |
 | 3     | Wednesday, 31st Jan | Embeddings and Recommender Systems                          |        |           |
 | 4     | Thursday, 1st Feb   | Convolutional Neural Networks for Image Classification      |        |           |
