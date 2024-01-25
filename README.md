@@ -59,18 +59,18 @@ Tutorial sessions are on the same date as each class. Tutorials will take place 
 
 ### Class Topics
 
-| Class | Date                | Topic                           | Slides                           | Workbooks                     |
-|-------|---------------------|---------------------------------|----------------------------------|-------------------------------|
-| 1     | Monday, 29th Jan    | Introduction to Deep Learning   | [Lecture 1 Slides](slides/Lecture_1.pdf) | [Lab 1 Workbook](notebooks/Lab_1.ipynb) - [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_1.ipynb) |
-| 2     | Tuesday, 30th Jan   | Neural Networks and Backpropagation                         |        |           |
-| 3     | Wednesday, 31st Jan | Embeddings and Recommender Systems                          |        |           |
-| 4     | Thursday, 1st Feb   | Convolutional Neural Networks for Image Classification      |        |           |
-| 5     | Monday, 5th Feb     | Deep Learning for Object Detection and Image Segmentation   |        |           |
-| 6     | Tuesday, 6th Feb    | Recurrent Neural Networks and NLP                           |        |           |
-| 7     | Wednesday, 7th Feb  | Sequence to sequence, attention and memory                  |        |           |
-| 8     | Tuesday, 13th Feb   | Expressivity, Optimization and Generalization              |        |           |
-| 9     | Wednesday, 14th Feb | Imbalanced classification and metric learning               |        |           |
-| 10    | Thursday, 15th Feb  | Unsupervised Deep Learning and Generative models            |        |           |
+| Class | Date                | Topic                           | Slides                                   | Workbooks                                                                                |
+|-------|---------------------|---------------------------------|------------------------------------------|------------------------------------------------------------------------------------------|
+| 1     | Monday, 29th Jan    | Introduction to Deep Learning   | [Lecture 1 Slides](slides/Lecture_1.pdf) | [Lab 1 Workbook](notebooks/Lab_1.ipynb)                                                  |
+| 2     | Tuesday, 30th Jan   | Neural Networks and Backpropagation                         | [Lecture 2 Slides](slides/Lecture_2.pdf) | [Lab 2 Workbook](notebooks/Lab_2.ipynb)                                                  |
+| 3     | Wednesday, 31st Jan | Embeddings and Recommender Systems                          | [Lecture 3 Slides](slides/Lecture_3.pdf) | [Lab 3 Workbook](notebooks/Lab_3.ipynb)                                                  |
+| 4     | Thursday, 1st Feb   | Convolutional Neural Networks for Image Classification      | [Lecture 4 Slides](slides/Lecture_4.pdf) | [Lab 4a Convolutions](notebooks/Lab_4a.ipynb), [Lab 4b ConvNets](notebooks/Lab_4b.ipynb) |
+| 5     | Monday, 5th Feb     | Deep Learning for Object Detection and Image Segmentation   |                                          |                                                                                          |
+| 6     | Tuesday, 6th Feb    | Recurrent Neural Networks and NLP                           |                                          |                                                                                          |
+| 7     | Wednesday, 7th Feb  | Sequence to sequence, attention and memory                  |                                          |                                                                                          |
+| 8     | Tuesday, 13th Feb   | Expressivity, Optimization and Generalization              |                                          |                                                                                          |
+| 9     | Wednesday, 14th Feb | Imbalanced classification and metric learning               |                                          |                                                                                          |
+| 10    | Thursday, 15th Feb  | Unsupervised Deep Learning and Generative models            |                                          |                                                                                          |
 
 
 ## Grading Scheme
