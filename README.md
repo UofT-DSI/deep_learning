@@ -59,18 +59,18 @@ Tutorial sessions are on the same date as each class. Tutorials will take place 
 
 ### Class Topics
 
-| Class | Date                | Topic                           | Slides                                   | Workbooks                                                                                |
-|-------|---------------------|---------------------------------|------------------------------------------|------------------------------------------------------------------------------------------|
-| 1     | Monday, 29th Jan    | Introduction to Deep Learning   | [Lecture 1 Slides](slides/Lecture_1.pdf) | [Lab 1 Workbook](notebooks/Lab_1.ipynb)                                                  |
-| 2     | Tuesday, 30th Jan   | Neural Networks and Backpropagation                         | [Lecture 2 Slides](slides/Lecture_2.pdf) | [Lab 2 Workbook](notebooks/Lab_2.ipynb)                                                  |
-| 3     | Wednesday, 31st Jan | Embeddings and Recommender Systems                          | [Lecture 3 Slides](slides/Lecture_3.pdf) | [Lab 3 Workbook](notebooks/Lab_3.ipynb)                                                  |
-| 4     | Thursday, 1st Feb   | Convolutional Neural Networks for Image Classification      | [Lecture 4 Slides](slides/Lecture_4.pdf) | [Lab 4a Convolutions](notebooks/Lab_4a.ipynb), [Lab 4b ConvNets](notebooks/Lab_4b.ipynb) |
-| 5     | Monday, 5th Feb     | Deep Learning for Object Detection and Image Segmentation   |                                          |                                                                                          |
-| 6     | Tuesday, 6th Feb    | Recurrent Neural Networks and NLP                           |                                          |                                                                                          |
-| 7     | Wednesday, 7th Feb  | Sequence to sequence, attention and memory                  |                                          |                                                                                          |
-| 8     | Tuesday, 13th Feb   | Expressivity, Optimization and Generalization              |                                          |                                                                                          |
-| 9     | Wednesday, 14th Feb | Imbalanced classification and metric learning               |                                          |                                                                                          |
-| 10    | Thursday, 15th Feb  | Unsupervised Deep Learning and Generative models            |                                          |                                                                                          |
+| Class | Date                | Topic                                                     | Slides                                   | Workbooks                                                                                                         |
+|-------|---------------------|-----------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| 1     | Monday, 29th Jan    | Introduction to Deep Learning                             | [Lecture 1 Slides](slides/Lecture_1.pdf) | [Lab 1 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_1.ipynb) |
+| 2     | Tuesday, 30th Jan   | Neural Networks and Backpropagation                       | [Lecture 2 Slides](slides/Lecture_2.pdf) | [Lab 2 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_2.ipynb) |
+| 3     | Wednesday, 31st Jan | Embeddings and Recommender Systems                        | [Lecture 3 Slides](slides/Lecture_3.pdf) | [Lab 3 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_3.ipynb) |
+| 4     | Thursday, 1st Feb   | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](slides/Lecture_4.pdf) | [Lab 4a Convolutions](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_4a.ipynb), [Lab 4b ConvNets](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_4b.ipynb) |
+| 5     | Monday, 5th Feb     | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](slides/Lecture_5.pdf) |                                                                                                                   |
+| 6     | Tuesday, 6th Feb    | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](slides/Lecture_6.pdf) |                                                                                                                   |
+| 7     | Wednesday, 7th Feb  | Guest Lecture                                             |                                          |                                                                                                                   |
+| 8     | Tuesday, 13th Feb   | Sequence to sequence, attention and memory                | [Lecture 8 Slides](slides/Lecture_8.pdf) |                                                                                                                   |
+| 9     | Wednesday, 14th Feb | Imbalanced classification and metric learning             |                                          |                                                                                                                   |
+| 10    | Thursday, 15th Feb  | Unsupervised Deep Learning and Generative models          |                                          |                                                                                                                   |
 
 
 ## Grading Scheme
@@ -92,10 +92,10 @@ The grading for this course is based on two components: assignments and class pa
 
 Assignments are a vital part of this course, focusing on the application of deep learning concepts. Two main assignments are scheduled, one at the end of each of the first two weeks. These assignments will be introduced in class and can be discussed with the instructor or TA during office hours or via email. They should be completed independently and submitted through the designated Google Forms links, following the naming convention `firstname_lastname_a#`. Please request extensions well in advance.
 
-| Assessment   | Content           | Due Date                            | Submission Link |
-|--------------|-------------------|-------------------------------------|-----------------|
-| Assignment 1 | Week 1 Topics     | Sunday, 4th February, by 11:59:59 PM EST | [Link to be added] |
-| Assignment 2 | Week 2 Topics     | Monday, 12th February, by 11:59:59 PM EST | [Link to be added] |
+| Assessment   | Content           | Due Date                            | Submission Link                                    |
+|--------------|-------------------|-------------------------------------|----------------------------------------------------|
+| Assignment 1 | Week 1 Topics     | Sunday, 4th February, by 11:59:59 PM EST | [Submit Here](https://forms.gle/CPuc5a42emh4sze86) |
+| Assignment 2 | Week 2 Topics     | Monday, 12th February, by 11:59:59 PM EST | [Link to be added]                                 |
 
 **Notebook Completion**
 
