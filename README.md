@@ -97,9 +97,21 @@ Assignments are a vital part of this course, focusing on the application of deep
 | Assignment 1 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_1.ipynb) | Sunday, 4th February, by 11:59:59 PM EST | [Submit Here](https://forms.gle/CPuc5a42emh4sze86) |
 | Assignment 2 | Week 2 Topics                                                                                                             | Monday, 12th February, by 11:59:59 PM EST | [Link to be added]                                 |
 
+You may submit assignments multiple times before the deadline. The last submission will be graded.
+
 **Notebook Completion**
 
 Students are expected to complete the Jupyter notebooks associated with each class. Completion includes actively coding along with the instructor and answering any questions in the notebooks. These notebooks are due by the end of the course, but it is highly recommended to complete them as you progress through the material to stay on top of the content. Notebooks are to be submitted for pass/fail grading.
+
+#### Submitting Notebooks
+
+Notebooks are to be submitted together at the end of the course. To submit, please follow these steps:
+
+1. Create a folder named `firstname_lastname_notebooks` and place all completed notebooks inside.
+2. Compress the folder into a `.zip` file.
+3. Upload the `.zip` file to [Link to be added].
+
+You may submit notebooks multiple times before the deadline. The last submission will be graded.
 
 **Note:** If any content in the assignments or notebooks is related to topics not covered in class due to schedule changes, those parts will be excluded from grading. Such exclusions will be clearly communicated before the assignment due date.
 
