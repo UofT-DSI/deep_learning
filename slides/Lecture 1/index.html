@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deep Learning Lectures</title>
+    <meta charset="utf-8">
+    <style>
+     .left-column {
+       width: 50%;
+       float: left;
+     }
+     .right-column {
+       width: 50%;
+       float: right;
+     }
+     .grey { color: #bbbbbb; }
+      </style>
+    <link rel="stylesheet" type="text/css" href="slides.css">
+  </head>
+  <body>
+      <textarea id="source">
+class: center, middle
+
+# Deep Learning
+## Lecture 1: Introduction to Deep Learning
+Alex Olson
+
+Adapted from material by Charles Ollion & Olivier Grisel
+
+
+---
+# Goal of the class
+
+## Overview
+
+- When and where to use DL
+- "How" it works
+- Frontiers of DL
+
+--
+
+## Using DL
+
+- Implement using `Numpy`, and `Tensorflow` (`Keras`)
+- Engineering knowledge for building and training DL
+
+---
+# What is Deep Learning
+
+### Good old Neural Networks, with more layers/modules
+
+--
+
+### Non-linear, hierarchical, abstract representations of data
+
+--
+
+### Flexible models with any input/output type and size
+
+--
+
+### Differentiable Functional Programming
+
+---
+# Why Deep Learning Now?
+
+- Better algorithms &amp; understanding
+
+- .grey[Computing power (GPUs, TPUs, ...)]
+
+- .grey[Data with labels]
+
+- .grey[Open source tools and models]
+
+---
+# Why Deep Learning Now?
+
+- Better algorithms &amp; understanding
+
+- Computing power (GPUs, TPUs, ...)
+
+- .grey[Data with labels]
+
+- .grey[Open source tools and models]
+
+.center[
+<img src="images/gpu_tpu.png" style="width: 450px;" /><br/><br/>
+<small>_GPU and TPU_</small>
+]
+
+---
+# Why Deep Learning Now?
+
+- Better algorithms &amp; understanding
+
+- Computing power (GPUs, TPUs, ...)
+
+- Data with labels
+
+- .grey[Open source tools and models]
+
+.center[
+<img src="images/ng_data_perf.svg" style="width: 400px;" /><br/><br/>
+<small>_Adapted from Andrew Ng_</small>
+]
+
+---
+# Why Deep Learning Now?
+
+- Better algorithms &amp; understanding
+
+- Computing power (GPUs, TPUs, ...)
+
+- Data with labels
+
+- Open source tools and models
+
+.center[
+<img src="images/frameworks.png" style="width: 500px;" /><br/><br/>
+]
+
+---
+# DL Today: Speech-to-Text
+
+.center[
+<img src="images/speech.png" style="width: 780px;" />
+]
+
+---
+# DL Today: Vision
+
+.center[
+<img src="images/vision.png" style="width: 720px;" />
+]
+
+---
+# DL Today: Vision
+
+.center[
+<img src="images/vision2.png" style="width: 720px;" />
+]
+
+---
+# DL Today: NLP
+
+.center[
+<img src="images/nlp.png" style="width: 600px;" />
+]
+
+---
+# DL Today: NLP
+
+
+.center[
+<img src="images/nlp2.png" style="width: 720px;" />
+]
+
+--
+
+Most of chatbots claiming "AI" do not use Deep Learning (yet?)
+
+---
+# DL Today: Vision + NLP
+
+.center[
+<img src="images/nlp_vision.png" style="width: 760px;" />
+]
+
+---
+# DL Today: Image translation
+
+.center[
+<img src="images/vision_translation.png" style="width: 700px;" />
+]
+
+---
+# DL Today: Generative models
+
+.center[
+<img src="images/nvidia_celeb.jpg" style="width: 350px;" />
+<br/>Sampled celebrities [Nvidia 2017]
+]
+
+--
+<br/>
+
+.center[
+<img src="images/stackgan.jpg" style="width: 600px;" />
+<br/>StackGAN v2 [Zhang 2017]
+]
+
+
+---
+# DL Today: Generative models
+.center[
+<img src="images/WaveNet.gif" style="width: 400px;" />
+<br/>Sound generation with WaveNet [DeepMind 2017]
+]
+
+--
+
+<br/>
+
+Guess which one is generated?
+
+.center[
+
+<audio controls><source src="images/columbia_gen.wav"></audio> <br/>
+
+<audio controls><source src="images/columbia_gt.wav"></audio>
+
+<small>_Tacotron 2 Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions, 2017_</small>
+]
+
+---
+# Language / Image models
+
+Open-AI GPT-3, or DALL-E: https://openai.com/blog/dall-e/
+
+.center[
+<img src="images/dalle.png" style="width: 600px;" />
+]
+---
+# DL in Science: Genomics
+
+.center[
+
+<img src="images/deepgenomics.png" style="width: 580px;" />
+]
+
+--
+
+.center[
+<img src="images/protein_fold.gif" style="width: 320px;" /><br/>
+<small>[AlphaFold by DeepMind](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology)</small>
+]
+
+---
+
+# DL in Science: Chemistry, Physics
+
+.center[
+<img src="images/deep_other.png" style="width: 680px;" />
+]
+
+---
+# DL in Science: Chemistry, Physics
+
+.center[
+<img src="images/Accelerating_Eulerian_Fluid_Simulation_with_Convolutional_Networks.gif" style="width: 350px;" />
+]
+
+- Finite element simulator accelerated (~100 fold) by a 3D convolutional network
+
+---
+# DL for AI in games
+
+.center[
+<img src="images/games.png" style="width: 650px;" />
+]
+
+--
+
+<small> AlphaGo/Zero: Monte Carlo Tree Search, Deep Reinforcement Learning, self-play </small>
+
+---
+# Outline of the class
+
+### Backpropagation
+
+--
+
+### Computer Vision
+
+--
+
+### Recommender Systems
+
+--
+
+### Natural Language Processing
+
+--
+
+### Optimization: theory, methods and tricks
+
+--
+
+### Generative models & unsupervised learning
+
+---
+
+# How this course works works
+
+### Lectures ~1 hour
+
+--
+
+### Break ~15 minutes
+
+--
+
+### Practical session ~1 hour
+
+- Work in breakout groups and discuss!
+- Homework: complete the lab
+
+--
+
+### Two assignments
+
+- One due at the end of week 1, one at the end of week 2
+
+---
+class: center,middle
+# Frameworks and Computation Graphs
+
+---
+# Libraries & Frameworks
+
+.center[
+<img src="images/frameworks.png" style="width: 600px;" /><br/><br/>
+]
+
+This lecture is using **Keras**: high level frontend for **TensorFlow** (and MXnet, Theano, CNTK)
+
+--
+
+One lab will be dedicated to a short **Pytorch** introduction.
+
+---
+# Computation Graph
+
+.center[
+<img src="images/computation_graph_simple_f.png" style="width: 600px;" /><br/><br/>
+]
+
+Neural network = parametrized, non-linear function
+
+---
+# Computation Graph
+
+.center[
+<img src="images/computation_graph_simple.png" style="width: 600px;" /><br/><br/>
+]
+
+Computation graph: Directed graph of functions, depending on parameters (neuron weights)
+---
+# Computation Graph
+
+.center[
+<img src="images/computation_graph_simple_expl.png" style="width: 600px;" /><br/><br/>
+]
+
+Combination of linear (parametrized) and non-linear functions
+---
+# Computation Graph
+
+.center[
+<img src="images/computation_graph_complicated.png" style="width: 600px;" /><br/><br/>
+]
+
+Not only sequential application of functions
+---
+# Computation Graph
+
+.center[
+<img src="images/computation_graph_backprop.png" style="width: 600px;" /><br/><br/>
+]
+
+Automatic computation of gradients: all modules are **differentiable**!
+
+--
+
+Theano (now Aesara), **Tensorflow 1**, etc. build a static computation graph via static declarations.
+
+--
+
+**Tensorflow 2**, **PyTorch**, **JAX**, etc. rely on dynamic differentiable modules: "define-by-run".
+
+--
+
+Vector computation on **CPU** and accelerators (**GPU** and **TPU**).
+
+---
+# Computation Graph
+
+.center[
+<img src="images/computation_graph_backprop.png" style="width: 600px;" /><br/><br/>
+]
+
+Simple keras implementation
+
+```py
+model = Sequential()
+model.add(Dense(H, input_dim=N))  # defines W0
+model.add(Activation("tanh"))
+model.add(Dense(K))               # defines W1
+model.add(Activation("softmax"))
+```
+
+---
+class: middle, center
+
+# Next: Lab 1!
+
+    </textarea>
+    <style TYPE="text/css">
+      code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+    </style>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+      }
+      });
+      MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i = 0; i < all.length; i += 1) {
+		     all[i].SourceElement().parentNode.className += ' has-jax';
+		     }
+		     });
+		     </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="../remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+        highlightStyle: 'github',
+        highlightSpans: true,
+        highlightLines: true
+      });
+    </script>
+  </body>
+</html>
