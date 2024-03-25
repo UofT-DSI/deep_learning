@@ -4,8 +4,8 @@
 * [Description](#description)
 * [Learning Outcomes](#learning-outcomes)
 * [Logistics](#logistics)
-    + [Course Contacts](#course-contacts)
-    + [Course Materials](#course-materials)
+    + [Module Contacts](#module-contacts)
+    + [Module Materials](#module-materials)
 * [Delivery of Module](#delivery-of-module)
     + [How the Instructor will deliver](#how-the-instructor-will-deliver)
     + [Expectations](#expectations)
@@ -25,10 +25,10 @@
 * [Acknowledgements](#acknowledgements)
 
 ## Description
-This Deep Learning course offers both fundamental understanding and practical skills necessary to develop, implement, test, and validate various deep learning models. The curriculum delves into the core concepts of Deep Learning, emphasizing its application across diverse domains. Students will explore the intricacies of neural networks, backpropagation, and the advanced architectures used in image processing, natural language processing, and more.
+This Deep Learning module offers both fundamental understanding and practical skills necessary to develop, implement, test, and validate various deep learning models. The curriculum delves into the core concepts of Deep Learning, emphasizing its application across diverse domains. Students will explore the intricacies of neural networks, backpropagation, and the advanced architectures used in image processing, natural language processing, and more.
 
 ## Learning Outcomes
-By the end of this Deep Learning course, students will:
+By the end of this Deep Learning module, students will:
 1. Apply principles of neural networks, including architectures like CNNs and RNNs.
 2. Implement deep learning models for tasks in image processing, NLP, and recommendation systems.
 3. Utilize advanced techniques such as sequence-to-sequence models and attention mechanisms.
@@ -38,14 +38,14 @@ By the end of this Deep Learning course, students will:
 
 ## Logistics
 
-### Course Contacts
+### Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
 * Instructor: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
 * TA: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
 
-### Course Materials
-This course's materials are adapted from the Deep Learning course taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science). The course includes comprehensive lectures and lab notebooks covering fundamental and advanced topics in Deep Learning. While there is no designated textbook for this course, the adapted materials provide a thorough exploration of the subject, incorporating a blend of theoretical knowledge and practical applications.
+### Module Materials
+This module's materials are adapted from the Deep Learning module taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science). The module includes comprehensive lectures and lab notebooks covering fundamental and advanced topics in Deep Learning. While there is no designated textbook for this module, the adapted materials provide a thorough exploration of the subject, incorporating a blend of theoretical knowledge and practical applications.
 
 ## Delivery of Module
 The module will run sychronously up three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the instructor will introduce the concepts for the week. The last day are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During the last day, an instructor or TA will be present on Zoom to assist learners reach the intended learning outcomes.
@@ -57,8 +57,8 @@ The instructors will introduce the concepts through a collaborative live coding 
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
 
 ### Policies
-* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
-* **Course communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Deep-Learning" or similar in the subject line, e.g. "DSI-Deep-Learning: NLP question"
+* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this module more accessible to you, please let us know.
+* **Module communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Deep-Learning" or similar in the subject line, e.g. "DSI-Deep-Learning: NLP question"
 * **Camera:** Keeping your camera on is optional.
 * **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
 * **Assessment:** All labs and assignments are graded.
@@ -75,7 +75,7 @@ Learners are encouraged to be active participants while coding and are encourage
 * Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ### Classes
-The course spans three weeks with a total of ten classes, each from 6 PM to 8:30 PM EST. Below is the class schedule formatted as a table:
+The module spans three weeks with a total of ten classes, each from 6 PM to 8:30 PM EST. Below is the class schedule formatted as a table:
 
 | Week | Dates               | Days of the Week               |
 |------|---------------------|--------------------------------|
@@ -104,7 +104,7 @@ Tutorial sessions are on the same date as each class. Tutorials will take place 
 
 ## Grading Scheme
 
-The grading for this course is based on two components: assignments and class participation, including the completion of Jupyter notebooks. The grading scheme is as follows:
+The grading for this module is based on two components: assignments and class participation, including the completion of Jupyter notebooks. The grading scheme is as follows:
 
 | Assessment       | Number | Individual Weight | Cumulative Weight |
 |------------------|--------|-------------------|-------------------|
@@ -113,13 +113,13 @@ The grading for this course is based on two components: assignments and class pa
 | Participation    | NA     | NA                | 10%               |
 
 - Assignments consist of two major tasks completed at the end of the first two weeks.
-- Jupyter Notebooks are to be completed throughout the course. Completion of these notebooks is pass/fail.
-- Participation includes engagement in class discussions, activities, and overall contribution to the course environment.
+- Jupyter Notebooks are to be completed throughout the module. Completion of these notebooks is pass/fail.
+- Participation includes engagement in class discussions, activities, and overall contribution to the module environment.
 
 
 **Assignments**
 
-Assignments are a vital part of this course, focusing on the application of deep learning concepts. Two main assignments are scheduled, one at the end of each of the first two weeks. These assignments will be introduced in class and can be discussed with the instructor or TA during office hours or via email. They should be completed independently and submitted through the designated Google Forms links, following the naming convention `firstname_lastname_a#`. Please request extensions well in advance.
+Assignments are a vital part of this module, focusing on the application of deep learning concepts. Two main assignments are scheduled, one at the end of each of the first two weeks. These assignments will be introduced in class and can be discussed with the instructor or TA during office hours or via email. They should be completed independently and submitted through the designated Google Forms links, following the naming convention `firstname_lastname_a#`. Please request extensions well in advance.
 
 | Assessment   | Link                                                                                                                      | Due Date                                     | Submission Link                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------|
@@ -131,11 +131,11 @@ You may submit assignments multiple times before the deadline. The last submissi
 
 **Notebook Completion**
 
-Students are expected to complete the Jupyter notebooks associated with each class. Completion includes actively coding along with the instructor and answering any questions in the notebooks. These notebooks are due by the end of the course, but it is highly recommended to complete them as you progress through the material to stay on top of the content. Notebooks are to be submitted for pass/fail grading.
+Students are expected to complete the Jupyter notebooks associated with each class. Completion includes actively coding along with the instructor and answering any questions in the notebooks. These notebooks are due by the end of the module, but it is highly recommended to complete them as you progress through the material to stay on top of the content. Notebooks are to be submitted for pass/fail grading.
 
 #### Submitting Notebooks
 
-Notebooks are to be submitted together at the end of the course. To submit, please follow these steps:
+Notebooks are to be submitted together at the end of the module. To submit, please follow these steps:
 
 1. Create a folder named `firstname_lastname_notebooks` and place all completed notebooks inside.
 2. Compress the folder into a `.zip` file.
@@ -147,7 +147,7 @@ You may submit notebooks multiple times before the deadline. The last submission
 
 **Participation**
 
-We hope all members in the course regularly participate. We define participation broadly, and include attendance, asking questions, answering others' questions, participating in discussions, etc.
+We hope all members in the module regularly participate. We define participation broadly, and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
 ## Resources
 Feel free to use the following as resources:
@@ -179,7 +179,7 @@ Feel free to use the following as resources:
 |-- .gitignore
 ```
 
-* **slides:** Course slides as PDF files
+* **slides:** module slides as PDF files
 * **labs:** Interactive notebooks to be done after each lecture (.ipynb files)
 * **live-coding:** Notebooks from class live coding sessions
 * **assignments:** Graded assignments
@@ -189,4 +189,4 @@ Feel free to use the following as resources:
 * .gitignore: Files to exclude from this folder, specified by the instructor
 
 ## Acknowledgements
-This course was developed by Alex Olson, under supervision from Rohan Alexander and Curtis Norman. The original content and structure of the course are adapted from the Deep Learning course taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science), built and maintained by Olivier Grisel and Charles Ollion.
+This module was developed by Alex Olson, under supervision from Rohan Alexander and Curtis Norman. The original content and structure of the module are adapted from the Deep Learning module taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science), built and maintained by Olivier Grisel and Charles Ollion.
