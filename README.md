@@ -74,21 +74,15 @@ Learners are encouraged to be active participants while coding and are encourage
 * We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
 * Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
-### Classes
-The module spans three weeks with a total of ten classes, each from 6 PM to 8:30 PM EST. Below is the class schedule formatted as a table:
-
-| Week | Dates               | Days of the Week               |
-|------|---------------------|--------------------------------|
-| 1    | TBD   | Monday, Tuesday, Wednesday, Thursday |
-| 2    | TBD    | Monday, Tuesday, Wednesday     |
-| 3    | TBD   | Tuesday, Wednesday, Thursday   |
-
-Classes will include lectures using prepared slides and live coding sessions. All slides will be accessible online prior to lectures. Students should actively participate in coding alongside the instructor in real-time and are encouraged to ask questions. 
-
 ### Tutorial
 Tutorial sessions are on the same date as each class. Tutorials will take place 30 minutes before and after each session. Tutorial attendance is optional, and organization is unstructured. The tutorial is the best place for questions/issues pertaining to software, labs, and assignments.
 
 ## Class Schedule
+
+The module spans two weeks with a total of 6 classes, each from 6 PM to 8:30 PM EST. Below is the class schedule formatted as a table:
+
+
+Classes will include lectures using prepared slides and live coding sessions. All slides will be accessible online prior to lectures. Students should actively participate in coding alongside the instructor in real-time and are encouraged to ask questions. 
 
 ### Class Topics
 
