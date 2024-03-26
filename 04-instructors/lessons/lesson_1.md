@@ -11,6 +11,11 @@ paginate: true
 Adapted from material by Charles Ollion & Olivier Grisel
 
 ---
+
+Warning: This lecture is more theoretical compared to the other lectures.
+
+---
+
 # Goal of the class
 
 ## Overview

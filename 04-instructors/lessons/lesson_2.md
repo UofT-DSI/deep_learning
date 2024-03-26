@@ -7,13 +7,9 @@ paginate: true
 
 # Neural networks and Backpropagation
 
-Charles Ollion - Olivier Grisel
+---
 
-.affiliations[
-  ![IPP](images/logo_ipp.jpeg)
-  ![Inria](images/inria-logo.png)
-  ![UPS](images/Logo_Master_Datascience.png)
-]
+Warning: This lecture is more theoretical compared to the other lectures.
 
 ---
 # Neural Network for classification
