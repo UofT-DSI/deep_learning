@@ -241,7 +241,7 @@ Neural machine translation by jointly learning to align and translate, D Bahdana
 # The GNMT architecture (2016)
 
 .center[
-          <img src="../lessons/images/gnmt-architecture.png" style="width: 600px;" />
+          <img src="../lessons/images/gnmt_architecture.png" style="width: 600px;" />
 ]
 
 .footnote.small[
