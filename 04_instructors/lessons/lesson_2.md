@@ -583,7 +583,7 @@ Better at handling changes in gradient direction.
 ---
 
 .center[
-<img src="./images/momentum-00.png" style="width: 800px;" />
+<img src="./images/momentum_00.png" style="width: 800px;" />
 
 [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 ]
@@ -591,7 +591,7 @@ Better at handling changes in gradient direction.
 ---
 
 .center[
-<img src="./images/momentum-06.png" style="width: 800px;" />
+<img src="./images/momentum_06.png" style="width: 800px;" />
 
 [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 ]
@@ -599,7 +599,7 @@ Better at handling changes in gradient direction.
 ---
 
 .center[
-<img src="./images/momentum-08.png" style="width: 800px;" />
+<img src="./images/momentum_08.png" style="width: 800px;" />
 
 [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 ]
@@ -607,7 +607,7 @@ Better at handling changes in gradient direction.
 ---
 
 .center[
-<img src="./images/momentum-09.png" style="width: 800px;" />
+<img src="./images/momentum_09.png" style="width: 800px;" />
 
 [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 ]

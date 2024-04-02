@@ -672,12 +672,12 @@ Retraining the (some) parameters of the network (given enough data)
 ## Data Augmentation
 
 .center[
-<img src="./images/not-augmented-cat.png" style="width: 180px" />
+<img src="./images/not-augmented_cat.png" style="width: 180px" />
 ]
 
 ---
 .center[
-<img src="./images/augmented-cat.png" style="width: 550px" />
+<img src="./images/augmented_cat.png" style="width: 550px" />
 ]
 
 ---

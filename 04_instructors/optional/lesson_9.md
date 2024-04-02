@@ -480,7 +480,7 @@ Face recognition: validation rate of 87% at false rate 0.001%
 ## Self-supervised learning
 
 .center[
-  <img src="../lessons/images/self-supervised.png" style="width: 700px;" />
+  <img src="../lessons/images/self_supervised.png" style="width: 700px;" />
 ]
 
 [SimCLR](https://github.com/google-research/simclr) uses a contrastive loss on
