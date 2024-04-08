@@ -34,7 +34,7 @@ By the end of this Deep Learning module, students will:
 3. Utilize advanced techniques such as sequence-to-sequence models and attention mechanisms.
 4. Evaluate and address challenges in model training, imbalanced classification, and metric learning.
 5. Use Keras and TensorFlow to emphasize reproducible research.
-6. Explain ethical implications of deep learning models effectively to diverse audiences.
+6. Explain the ethical implications of deep learning models effectively to diverse audiences.
 
 ## Logistics
 
@@ -48,10 +48,10 @@ By the end of this Deep Learning module, students will:
 This module's materials are adapted from the Deep Learning module taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science). The module includes comprehensive lectures and lab notebooks covering fundamental and advanced topics in Deep Learning. While there is no designated textbook for this module, the adapted materials provide a thorough exploration of the subject, incorporating a blend of theoretical knowledge and practical applications.
 
 ## Delivery of Module
-The module will run sychronously up three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last day are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During the last day, an Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
+The module will run synchronously three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last day is used as an optional, asynchronous work period. The work periods will also last for up to 3 hours. During the last day, a Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
 ### How the Technical Facilitator will deliver
-The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
+The Technical Facilitators will introduce the concepts through a collaborative live coding session using the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
  
 ### Expectations
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
@@ -64,15 +64,15 @@ Learners are encouraged to be active participants while coding and are encourage
 * **Assessment:** All labs and assignments are graded.
  
 ### Requirements
-* Learners are not expected to have any coding experience, we designed the learning contents for beginners.
-* Learners are encouraged to ask questions, and collaborate with others to enhance learning.
+* Learners are not expected to have any coding experience, we designed the learning content for beginners.
+* Learners are encouraged to ask questions and collaborate with others to enhance learning.
 * Learners must have a computer and an internet connection to participate in online activities.
 * Learners must have VSCode installed with the following extensions: 
     * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
     * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* Learners must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be use as a supportive tool to seek out answers to questions you may have.
+* Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
 * We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
-* Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+* Webcam usage is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ### Tutorial
 Tutorial sessions are on the same date as each class. Tutorials will take place 30 minutes before and after each session. Tutorial attendance is optional, and organization is unstructured. The tutorial is the best place for questions/issues pertaining to software, labs, and assignments.
@@ -82,7 +82,7 @@ Tutorial sessions are on the same date as each class. Tutorials will take place 
 The module spans two weeks with a total of 6 classes, each from 6 PM to 8:30 PM EST. Below is the class schedule formatted as a table:
 
 
-Classes will include lectures using prepared slides and live coding sessions. All slides will be accessible online prior to lectures. Students should actively participate in coding alongside the Technical Facilitator in real-time and are encouraged to ask questions. 
+Classes will include lectures using prepared slides and live coding sessions. All slides will be accessible online prior to lectures. Students should actively participate in coding alongside the Technical Facilitator in real time and are encouraged to ask questions. 
 
 ### Class Topics
 
@@ -141,7 +141,7 @@ You may submit notebooks multiple times before the deadline. The last submission
 
 **Participation**
 
-We hope all members in the module regularly participate. We define participation broadly, and include attendance, asking questions, answering others' questions, participating in discussions, etc.
+We hope all members of the module regularly participate. We define participation broadly and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
 ## Resources
 Feel free to use the following as resources:
@@ -160,8 +160,6 @@ Feel free to use the following as resources:
 
 ### How to get help
 ![image](/steps_to_ask_for_help.png)
-
-<hr>
 
 ## Folder Structure
 
@@ -187,4 +185,4 @@ Feel free to use the following as resources:
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
 ## Acknowledgements
-This module was developed by Alex Olson, under supervision from Rohan Alexander and Curtis Norman. The original content and structure of the module are adapted from the Deep Learning module taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science), built and maintained by Olivier Grisel and Charles Ollion.
+This module was developed by Alex Olson, under the supervision of Rohan Alexander and Curtis Norman. The original content and structure of the module are adapted from the Deep Learning module taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science), built and maintained by Olivier Grisel and Charles Ollion.
