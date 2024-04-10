@@ -9,7 +9,6 @@
 * [Delivery of Module](#delivery-of-module)
     + [How the Technical Facilitator will deliver](#how-the-technical-facilitator-will-deliver)
     + [Expectations](#expectations)
-    + [Policies](#policies)
     + [Requirements](#requirements)
     + [Classes](#classes)
     + [Tutorial](#tutorial)
@@ -55,13 +54,6 @@ The Technical Facilitators will introduce the concepts through a collaborative l
  
 ### Expectations
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
-
-### Policies
-* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this module more accessible to you, please let us know.
-* **Module communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Deep-Learning" or similar in the subject line, e.g. "DSI-Deep-Learning: NLP question"
-* **Camera:** Keeping your camera on is optional.
-* **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
-* **Assessment:** All labs and assignments are graded.
  
 ### Requirements
 * Learners are not expected to have any coding experience, we designed the learning content for beginners.
