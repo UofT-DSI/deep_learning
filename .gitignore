@@ -1,3 +1,11 @@
 .DS_Store
 .idea
 *.pptx
+transcription/
+*.h5
+*.txt
+*.zip
+*.part
+*[Aa]nswered*
+__pycache__/
+*VOC*

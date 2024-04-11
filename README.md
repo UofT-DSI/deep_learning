@@ -42,13 +42,14 @@ This course's materials are adapted from the Deep Learning course taught at [Mas
 Our course uses Zoom for synchronous lectures and tutorials. For practical components, we focus on Python and Jupyter Notebooks. We recommend using [Google Colab](https://colab.research.google.com/) for these sections, which will be the main platform for support and troubleshooting. However, students have the flexibility to run notebooks on alternative services or their own computers. 
 
 ### Classes
-The course spans three weeks with a total of ten classes, each from 6 PM to 8:30 PM EST. Below is the class schedule formatted as a table:
 
-| Week | Dates               | Days of the Week               |
-|------|---------------------|--------------------------------|
-| 1    | Starting 29th Jan   | Monday, Tuesday, Wednesday, Thursday |
-| 2    | Starting 5th Feb    | Monday, Tuesday, Wednesday     |
-| 3    | Starting 12th Feb   | Tuesday, Wednesday, Thursday   |
+| Week | Dates             | Days of the Week                       |
+|------|-------------------|----------------------------------------|
+| 1    | Starting 11th Apr | Thursday, Saturday                     |
+| 2    | Starting 15th Apr | Tuesday, Wednesday, Thursday, Saturday |
+| 3    | Starting 22nd Apr | Tuesday, Wednesday, Thursday, Saturday |
+
+Weekday evening classes run from 6:00 PM to 8:30 PM, while Saturday classes run from 9:00 AM to 11:30 AM.
 
 Classes will include lectures using prepared slides and live coding sessions. All slides will be accessible online prior to lectures. Students should actively participate in coding alongside the instructor in real-time and are encouraged to ask questions. 
 
@@ -61,16 +62,16 @@ Tutorial sessions are on the same date as each class. Tutorials will take place 
 
 | Class | Date                | Topic                                                     | Slides                                     | Workbooks                                                                                                           | Suggested Additional Material                                                                                          |
 |-------|---------------------|-----------------------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 1     | Monday, 29th Jan    | Introduction to Deep Learning                             | [Lecture 1 Slides](slides/Lecture_1.pdf)   | [Lab 1 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_1.ipynb)   |                                                                                                                        |
-| 2     | Tuesday, 30th Jan   | Neural Networks and Backpropagation                       | [Lecture 2 Slides](slides/Lecture_2.pdf)   | [Lab 2 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_2.ipynb)   | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
-| 3     | Wednesday, 31st Jan | Embeddings and Recommender Systems                        | [Lecture 3 Slides](slides/Lecture_3.pdf)   | [Lab 3 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_3.ipynb)   |                                                                                                                        |
-| 4     | Thursday, 1st Feb   | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](slides/Lecture_4.pdf)   | [Lab 4 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_4.ipynb)   |                                                                                                                        |
-| 5     | Monday, 5th Feb     | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](slides/Lecture_5.pdf)   | [Lab 5 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_5.ipynb)   |                                                                                                                        |
-| 6     | Tuesday, 6th Feb    | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](slides/Lecture_6.pdf)   | [Lab 6 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_6.ipynb)   |                                                                                                                        |
-| 7     | Wednesday, 7th Feb  | Guest Lecture - Eddie Kim, Cohere AI                      |                                            |                                                                                                                     |                                                                                                                        |
-| 8     | Tuesday, 13th Feb   | Attention and GPT                                         | [Lecture 8 Slides](slides/Lecture_8.pdf)   | [Lab 8 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_8.ipynb)   | [The Sentence Computers Can't Understand, But Humans Can](https://www.youtube.com/watch?v=m3vIEKWrP9Q)      |
-| 9     | Wednesday, 14th Feb | Imbalanced classification and metric learning             | [Lecture 9 Slides](slides/Lecture_9.pdf)   | [Lab 9 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_9.ipynb)   |                                                                                                                        |
-| 10    | Thursday, 15th Feb  | Unsupervised Deep Learning and Generative models          | [Lecture 10 Slides](slides/Lecture_10.pdf) | [Lab 10 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_10.ipynb) |                                                                                                                        |
+| 1     | Thursday, 11th Apr  | Introduction to Deep Learning                             | [Lecture 1 Slides](slides/Lecture_1.pdf)   | [Lab 1 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_1.ipynb)   |                                                                                                                        |
+| 2     | Saturday, 13th Apr  | Neural Networks and Backpropagation                       | [Lecture 2 Slides](slides/Lecture_2.pdf)   | [Lab 2 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_2.ipynb)   | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
+| 3     | Tuesday, 15th Apr   | Embeddings and Recommender Systems                        | [Lecture 3 Slides](slides/Lecture_3.pdf)   | [Lab 3 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_3.ipynb)   |                                                                                                                        |
+| 4     | Wednesday, 16th Apr | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](slides/Lecture_4.pdf)   | [Lab 4 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_4.ipynb)   |                                                                                                                        |
+| 5     | Thursday, 17th Apr  | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](slides/Lecture_5.pdf)   | [Lab 5 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_5.ipynb)   |                                                                                                                        |
+| 6     | Saturday, 20th Apr  | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](slides/Lecture_6.pdf)   | [Lab 6 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_6.ipynb)   |                                                                                                                        |
+| 7     | Tuesday, 22nd Apr   | TBA                                                       |                                            |                                                                                                                     |                                                                                                                        |
+| 8     | Wednesday, 23rd Apr | Attention and GPT                                         | [Lecture 8 Slides](slides/Lecture_8.pdf)   | [Lab 8 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_8.ipynb)   | [The Sentence Computers Can't Understand, But Humans Can](https://www.youtube.com/watch?v=m3vIEKWrP9Q)      |
+| 9     | Thursday, 24th Apr  | Imbalanced classification and metric learning             | [Lecture 9 Slides](slides/Lecture_9.pdf)   | [Lab 9 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_9.ipynb)   |                                                                                                                        |
+| 10    | Saturday, 27th Apr  | Unsupervised Deep Learning and Generative models          | [Lecture 10 Slides](slides/Lecture_10.pdf) | [Lab 10 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_10.ipynb) |                                                                                                                        |
 
 
 ## Grading Scheme
@@ -94,9 +95,9 @@ Assignments are a vital part of this course, focusing on the application of deep
 
 | Assessment   | Link                                                                                                                      | Due Date                                     | Submission Link                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------|
-| Assignment 1 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_1.ipynb) | Sunday, 4th February, by 11:59:59 PM EST     | Submission Closed                                   |
-| Assignment 2 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_2.ipynb) | Wednesday, 14th February, by 11:59:59 PM EST | [Submit Here](https://forms.gle/5Z6AsKxx6vURxZkK8)  |
-| Workbooks    |                             | Friday, 16 February, by 11:59:59 PM EST | [Submit Here](https://forms.gle/T6wTeZRQ4ZnEXRGGA)  |                                              |                                                    |
+| Assignment 1 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_1.ipynb) |      |                                    |
+| Assignment 2 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_2.ipynb) |  |  |
+| Workbooks    |                             |  | |                                              |                                                    |
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
 
@@ -110,7 +111,7 @@ Notebooks are to be submitted together at the end of the course. To submit, plea
 
 1. Create a folder named `firstname_lastname_notebooks` and place all completed notebooks inside.
 2. Compress the folder into a `.zip` file.
-3. Upload the `.zip` file to [this form](https://forms.gle/T6wTeZRQ4ZnEXRGGA).
+3. Upload the `.zip` file to [link to be added].
 
 You may submit notebooks multiple times before the deadline. The last submission will be graded.
 
