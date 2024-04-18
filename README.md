@@ -178,3 +178,4 @@ Feel free to use the following as resources:
 
 ## Acknowledgements
 This module was developed by Alex Olson, under the supervision of Rohan Alexander and Curtis Norman. The original content and structure of the module are adapted from the Deep Learning module taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science), built and maintained by Olivier Grisel and Charles Ollion.
+
