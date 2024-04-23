@@ -63,7 +63,7 @@ Learners are encouraged to be active participants while coding and are encourage
     * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
     * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
 * Webcam usage is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ### Tutorial
@@ -80,12 +80,12 @@ Classes will include lectures using prepared slides and live coding sessions. Al
 
 | Class | Date                | Topic                                                     | Slides                                     | Workbooks                                                                                                           | Suggested Additional Material                                                                                          |
 |-------|---------------------|-----------------------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 1     | TBD    | Introduction to Deep Learning                             | [Lecture 1 Slides](slides/Lecture_1.pdf)   | [Lab 1 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_1.ipynb)   | |
-| 2     | TBD   | Neural Networks and Backpropagation                       | [Lecture 2 Slides](slides/Lecture_2.pdf)   | [Lab 2 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_2.ipynb)   | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
-| 3     | TBD | Embeddings and Recommender Systems                        | [Lecture 3 Slides](slides/Lecture_3.pdf)   | [Lab 3 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_3.ipynb)   | |
-| 4     | TBD   | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](slides/Lecture_4.pdf)   | [Lab 4 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_4.ipynb)   | |
-| 5     | TBD     | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](slides/Lecture_5.pdf)   | [Lab 5 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_5.ipynb)   | |
-| 6     | TBD    | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](slides/Lecture_6.pdf)   | [Lab 6 Workbook](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/notebooks/Lab_6.ipynb)   ||
+| 1     | TBD    | Introduction to Deep Learning                             | [Lecture 1 Slides](slides/Lecture_1.pdf)   | [Lab 1 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_1.ipynb)   | |
+| 2     | TBD   | Neural Networks and Backpropagation                       | [Lecture 2 Slides](slides/Lecture_2.pdf)   | [Lab 2 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_2.ipynb)   | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
+| 3     | TBD | Embeddings and Recommender Systems                        | [Lecture 3 Slides](slides/Lecture_3.pdf)   | [Lab 3 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_3.ipynb)   | |
+| 4     | TBD   | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](slides/Lecture_4.pdf)   | [Lab 4 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_4.ipynb)   | |
+| 5     | TBD     | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](slides/Lecture_5.pdf)   | [Lab 5 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_5.ipynb)   | |
+| 6     | TBD    | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](slides/Lecture_6.pdf)   | [Lab 6 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_6.ipynb)   ||
 
 
 ## Grading Scheme
@@ -109,8 +109,8 @@ Assignments are a vital part of this module, focusing on the application of deep
 
 | Assessment   | Link                                                                                                                      | Due Date                                     | Submission Link                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------|
-| Assignment 1 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_1.ipynb) | TBD     | Submission Closed                                   |
-| Assignment 2 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_2.ipynb) | TBD | [Submit Here](https://forms.gle/5Z6AsKxx6vURxZkK8)  |
+| Assignment 1 | [Open in Colab](https://github.com/UofT-DSI/deep_learning/blob/main/03_assignments/assignment_1.ipynb) | TBD     | Submission Closed                                   |
+| Assignment 2 | [Open in Colab](https://github.com/UofT-DSI/deep_learning/blob/main/03_assignments/assignment_2.ipynb) | TBD | [Submit Here](https://forms.gle/5Z6AsKxx6vURxZkK8)  |
 | Workbooks    |                             | TBD | [Submit Here](https://forms.gle/T6wTeZRQ4ZnEXRGGA)  |                                              |                                                    |
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
@@ -151,7 +151,7 @@ Feel free to use the following as resources:
 - [3Blue1Brown Neural Networks Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 ### How to get help
-![image](/steps_to_ask_for_help.png)
+![image](./steps_to_ask_for_help.png)
 
 ## Folder Structure
 
@@ -160,7 +160,7 @@ Feel free to use the following as resources:
 ├── 01_slides
 ├── 02_labs
 ├── 03_assignments
-├── 04_instructors
+├── 04_instructional_team
 ├── 05_additional_resources
 ├── LICENSE
 ├── README.md
@@ -176,6 +176,6 @@ Feel free to use the following as resources:
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
-## Acknowledgements
-This module was developed by Alex Olson, under the supervision of Rohan Alexander and Curtis Norman. The original content and structure of the module are adapted from the Deep Learning module taught at [Master Year 2 Data Science IP-Paris](https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science), built and maintained by Olivier Grisel and Charles Ollion.
+## Acknowledgement
 
+We wish to acknowledge this land on which the University of Toronto operates. For thousands of years, it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.

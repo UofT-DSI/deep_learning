@@ -112,7 +112,7 @@ convnet = Model(inputs=input_image, outputs=x)
 * $x$ is a $3 \times 3$ chunk (dark area) of the image *(blue array)*
 * Each output neuron is parametrized with the $3 \times 3$ weight matrix $\mathbf{w}$ _(small numbers)
 
-These slides extensively use convolution visualisation by V.Dumoulin available at https://github.com/vdumoulin/conv_arithmetic
+These slides extensively use convolution visualization by V.Dumoulin available at https://github.com/vdumoulin/conv_arithmetic
 
 ---
 
