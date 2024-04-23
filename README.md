@@ -96,7 +96,7 @@ Assignments are a vital part of this course, focusing on the application of deep
 | Assessment   | Link                                                                                                                      | Due Date                    | Submission Link                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------|-----------------------------------------------------|
 | Assignment 1 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_1.ipynb) | End of Sunday, 21st April   |                                    |
-| Assignment 2 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_2.ipynb) | End of Friday, 25th April   |  |
+| Assignment 2 | [Open in Colab](https://colab.research.google.com/github/UofT-DSI/deep_learning/blob/main/assignments/Assignment_2.ipynb) | End of Friday, 26th April   |  |
 | Workbooks    |                             | End of Saturday, 27th April | |                                              |                                                    |
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
