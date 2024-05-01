@@ -17,3 +17,5 @@
 02_labs/voc_representations.h5
 02_labs/VOCtrainval_06-Nov-2007.tar
 03_assignments/best_model/
+03_assignments/*.zip
+03_assignments/*.txt
