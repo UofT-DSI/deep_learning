@@ -17,19 +17,19 @@ The `/03_assignments` directory is the second directory containing the assignmen
 
 ### Week 1
 
-| Class | Date                | Topic                                                     | Slides                                     | Workbooks                                                                                                           | Suggested Additional Material                                                                                          |
-|-------|---------------------|-----------------------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 1     | TBD    | Introduction to Deep Learning                             | [Lecture 1 Slides](slides/Lecture_1.pdf)   | [Lab 1 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_1.ipynb)   | |
-| 2     | TBD   | Neural Networks and Backpropagation                       | [Lecture 2 Slides](slides/Lecture_2.pdf)   | [Lab 2 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_2.ipynb)   | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
-| 3     | TBD | Embeddings and Recommender Systems                        | [Lecture 3 Slides](slides/Lecture_3.pdf)   | [Lab 3 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_3.ipynb)   | |
+| Class | Date | Topic                               | Slides                                   | Workbooks                                                                                 | Suggested Additional Material                                                                           |
+| ----- | ---- | ----------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 1     | TBD  | Introduction to Deep Learning       | [Lecture 1 Slides](../01_slides/01_introduction.pdf) | [Lab 1 Workbook](../02_labs/lab_1.ipynb) |                                                                                                         |
+| 2     | TBD  | Neural Networks and Backpropagation | [Lecture 2 Slides](../01_slides/02_neural_networks_and_backpropagation.pdf) | [Lab 2 Workbook](../02_labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
+| 3     | TBD  | Embeddings and Recommender Systems  | [Lecture 3 Slides](../01_slides/03_recommender_systems_&_embeddings.pdf) | [Lab 3 Workbook](../02_labs/lab_3.ipynb) |                                                                                                         |
 
 ### Week 2
 
-| Class | Date                | Topic                                                     | Slides                                     | Workbooks                                                                                                           | Suggested Additional Material                                                                                          |
-|-------|---------------------|-----------------------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 4     | TBD   | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](slides/Lecture_4.pdf)   | [Lab 4 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_4.ipynb)   | |
-| 5     | TBD     | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](slides/Lecture_5.pdf)   | [Lab 5 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_5.ipynb)   | |
-| 6     | TBD    | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](slides/Lecture_6.pdf)   | [Lab 6 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_6.ipynb)   ||
+| Class | Date | Topic                                                     | Slides                                   | Workbooks                                                                                 | Suggested Additional Material |
+| ----- | ---- | --------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------- |
+| 4     | TBD  | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](../01_slides/04_convolutional_neural_networks.pdf) | [Lab 4 Workbook](../02_labs/lab_4.ipynb) |                               |
+| 5     | TBD  | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](../01_slides/05_convolutional_neural_networks_part_II.pdf) | [Lab 5 Workbook](../02_labs/lab_5.ipynb) |                               |
+| 6     | TBD  | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](../01_slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](../02_labs/lab_6.ipynb) |                               |
 
 ## How do you assign assignments?
 Assignments are given and assigned at the start of each week at the end of the first lecture. The Technical Facilitator will announce to the learners what the assignment is about, and how everything they will learn within the week will equip them to work on the assignment.

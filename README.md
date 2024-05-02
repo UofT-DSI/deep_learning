@@ -78,25 +78,25 @@ Classes will include lectures using prepared slides and live coding sessions. Al
 
 ### Class Topics
 
-| Class | Date                | Topic                                                     | Slides                                     | Workbooks                                                                                                           | Suggested Additional Material                                                                                          |
-|-------|---------------------|-----------------------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 1     | TBD    | Introduction to Deep Learning                             | [Lecture 1 Slides](slides/Lecture_1.pdf)   | [Lab 1 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_1.ipynb)   | |
-| 2     | TBD   | Neural Networks and Backpropagation                       | [Lecture 2 Slides](slides/Lecture_2.pdf)   | [Lab 2 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_2.ipynb)   | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
-| 3     | TBD | Embeddings and Recommender Systems                        | [Lecture 3 Slides](slides/Lecture_3.pdf)   | [Lab 3 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_3.ipynb)   | |
-| 4     | TBD   | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](slides/Lecture_4.pdf)   | [Lab 4 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_4.ipynb)   | |
-| 5     | TBD     | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](slides/Lecture_5.pdf)   | [Lab 5 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_5.ipynb)   | |
-| 6     | TBD    | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](slides/Lecture_6.pdf)   | [Lab 6 Workbook](https://github.com/UofT-DSI/deep_learning/blob/main/02_labs/lab_6.ipynb)   ||
+| Class | Date | Topic                                                     | Slides                                                                                | Workbooks                               | Suggested Additional Material                                                                           |
+| ----- | ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 1     | TBD  | Introduction to Deep Learning                             | [Lecture 1 Slides](./01_slides/01_introduction.pdf)                                   | [Lab 1 Workbook](./02_labs/lab_1.ipynb) |                                                                                                         |
+| 2     | TBD  | Neural Networks and Backpropagation                       | [Lecture 2 Slides](./01_slides/02_neural_networks_and_backpropagation.pdf)            | [Lab 2 Workbook](./02_labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
+| 3     | TBD  | Embeddings and Recommender Systems                        | [Lecture 3 Slides](./01_slides/03_recommender_systems_&_embeddings.pdf)               | [Lab 3 Workbook](./02_labs/lab_3.ipynb) |                                                                                                         |
+| 4     | TBD  | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](./01_slides/04_convolutional_neural_networks.pdf)                  | [Lab 4 Workbook](./02_labs/lab_4.ipynb) |                                                                                                         |
+| 5     | TBD  | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](./01_slides/05_convolutional_neural_networks_part_II.pdf)          | [Lab 5 Workbook](./02_labs/lab_5.ipynb) |                                                                                                         |
+| 6     | TBD  | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](./01_slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./02_labs/lab_6.ipynb) |                                                                                                         |
 
 
 ## Grading Scheme
 
 The grading for this module is based on two components: assignments and class participation, including the completion of Jupyter notebooks. The grading scheme is as follows:
 
-| Assessment       | Number | Individual Weight | Cumulative Weight |
-|------------------|--------|-------------------|-------------------|
-| Assignments      | 2      | 35%               | 70%               |
+| Assessment        | Number | Individual Weight | Cumulative Weight |
+| ----------------- | ------ | ----------------- | ----------------- |
+| Assignments       | 2      | 35%               | 70%               |
 | Jupyter Notebooks | 10     | 2%                | 20%               |
-| Participation    | NA     | NA                | 10%               |
+| Participation     | NA     | NA                | 10%               |
 
 - Assignments consist of two major tasks completed at the end of the first two weeks.
 - Jupyter Notebooks are to be completed throughout the module. Completion of these notebooks is pass/fail.
@@ -107,11 +107,11 @@ The grading for this module is based on two components: assignments and class pa
 
 Assignments are a vital part of this module, focusing on the application of deep learning concepts. Two main assignments are scheduled, one at the end of each of the first two weeks. These assignments will be introduced in class and can be discussed with the Technical Facilitator or TA during office hours or via email. They should be completed independently and submitted through the designated Google Forms links, following the naming convention `firstname_lastname_a#`. Please request extensions well in advance.
 
-| Assessment   | Link                                                                                                                      | Due Date                                     | Submission Link                                     |
-|--------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------|
-| Assignment 1 | [Open in Colab](https://github.com/UofT-DSI/deep_learning/blob/main/03_assignments/assignment_1.ipynb) | TBD     | Submission Closed                                   |
-| Assignment 2 | [Open in Colab](https://github.com/UofT-DSI/deep_learning/blob/main/03_assignments/assignment_2.ipynb) | TBD | [Submit Here](https://forms.gle/5Z6AsKxx6vURxZkK8)  |
-| Workbooks    |                             | TBD | [Submit Here](https://forms.gle/T6wTeZRQ4ZnEXRGGA)  |                                              |                                                    |
+| Assessment   | Link                                            | Due Date |
+| ------------ | ----------------------------------------------- | -------- |
+| Assignment 1 | [Notebook](./03_assignments/assignment_1.ipynb) | TBD      |
+| Assignment 2 | [Notebook](./03_assignments/assignment_2.ipynb) | TBD      |
+| Workbooks    |                                                 | TBD      |
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
 
