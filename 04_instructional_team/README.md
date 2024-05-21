@@ -1,7 +1,7 @@
 # Technical Facilitator Playbook
 
 ## How do you interact with the repo?
-The Technical Facilitator will teach using the content provided in the `/01_slides` directory. You are allowed to live code with them during your lecture. Just make sure you upload the live_coding files to a new directory called `/live_coding` under `/01_slides` to this repository using a new branch and open up a pull request for it to be merged.
+The Technical Facilitator will deliver the content in the `/01_slides` directory. You are encouraged to live code with participants during live sessions. Please ensure that live coding files are uploaded to a new directory called `/live_code` under `/06_cohort_three` in this repository using a new branch. Please open a pull request for it to be merged.
 
 ## How does the module flow?
 The module is organized into 3 main directories:
@@ -9,48 +9,53 @@ The module is organized into 3 main directories:
 2. Labs
 3. Assignments
 
-The `/01_slides` directory would be the first directory anyone would see, and contains the lecture slides, learning outcomes, and anything related to the learning outcomes such as live_coding files.
+The `/01_slides` directory contains the live learning session slides.
 
-The `02_labs` directory contains the labs learners would do after the lecture. It helps the learners consolidate the learning they just learned. All labs are mandatory to complete and deliver.
+The `02_labs` directory contains the labs participants would complete after the lecture. It helps participants consolidate the learning. All labs are mandatory to complete.
 
-The `/03_assignments` directory is the second directory containing the assignments that would be marked as a `pass` or `fail`. Compared to `/02_labs`, the assignments are slightly more difficult, and help encapsulate the learnings for the week. All assignments are mandatory to complete and deliver.
+The `/03_assignments` contains assignments participants should submit for evaluation as  `complete` or `incomplete`. The assignments measure a participant's achievement of the learning outcomes, and help technical facilitators determine if a participant has successfully completed the learning module.  Compared to `/02_labs`, the assignments are slightly more difficult, and help encapsulate the learnings for the week. All assignments are mandatory to complete.
 
 ### Week 1
 
-| Class | Date | Topic                               | Slides                                   | Workbooks                                                                                 | Suggested Additional Material                                                                           |
+| Live Learning Session | Date | Topic                               | Slides                                   | Workbooks                                                                                 | Suggested Additional Material                                                                           |
 | ----- | ---- | ----------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 1     | TBD  | Introduction to Deep Learning       | [Lecture 1 Slides](../01_slides/01_introduction.pdf) | [Lab 1 Workbook](../02_labs/lab_1.ipynb) |                                                                                                         |
-| 2     | TBD  | Neural Networks and Backpropagation | [Lecture 2 Slides](../01_slides/02_neural_networks_and_backpropagation.pdf) | [Lab 2 Workbook](../02_labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
-| 3     | TBD  | Embeddings and Recommender Systems  | [Lecture 3 Slides](../01_slides/03_recommender_systems_&_embeddings.pdf) | [Lab 3 Workbook](../02_labs/lab_3.ipynb) |                                                                                                         |
+| 1     | TBD  | Introduction to Deep Learning       | [Slides](../01_slides/01_introduction.pdf) | [Lab 1 Workbook](../02_labs/lab_1.ipynb) |                                                                                                         |
+| 2     | TBD  | Neural Networks and Backpropagation | [Slides](../01_slides/02_neural_networks_and_backpropagation.pdf) | [Lab 2 Workbook](../02_labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
+| 3     | TBD  | Embeddings and Recommender Systems  | [Slides](../01_slides/03_recommender_systems_&_embeddings.pdf) | [Lab 3 Workbook](../02_labs/lab_3.ipynb) |                                                                                                         |
 
 ### Week 2
 
-| Class | Date | Topic                                                     | Slides                                   | Workbooks                                                                                 | Suggested Additional Material |
+| Live Learning Session | Date | Topic                                                     | Slides                                   | Workbooks                                                                                 | Suggested Additional Material |
 | ----- | ---- | --------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------- |
-| 4     | TBD  | Convolutional Neural Networks for Image Classification    | [Lecture 4 Slides](../01_slides/04_convolutional_neural_networks.pdf) | [Lab 4 Workbook](../02_labs/lab_4.ipynb) |                               |
-| 5     | TBD  | Deep Learning for Object Detection and Image Segmentation | [Lecture 5 Slides](../01_slides/05_convolutional_neural_networks_part_II.pdf) | [Lab 5 Workbook](../02_labs/lab_5.ipynb) |                               |
-| 6     | TBD  | Recurrent Neural Networks and NLP                         | [Lecture 6 Slides](../01_slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](../02_labs/lab_6.ipynb) |                               |
+| 4     | TBD  | Convolutional Neural Networks for Image Classification    | [Slides](../01_slides/04_convolutional_neural_networks.pdf) | [Lab 4 Workbook](../02_labs/lab_4.ipynb) |                               |
+| 5     | TBD  | Deep Learning for Object Detection and Image Segmentation | [Slides](../01_slides/05_convolutional_neural_networks_part_II.pdf) | [Lab 5 Workbook](../02_labs/lab_5.ipynb) |                               |
+| 6     | TBD  | Recurrent Neural Networks and NLP                         | [Slides](../01_slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](../02_labs/lab_6.ipynb) |                               |
 
 ## How do you assign assignments?
-Assignments are given and assigned at the start of each week at the end of the first lecture. The Technical Facilitator will announce to the learners what the assignment is about, and how everything they will learn within the week will equip them to work on the assignment.
+Technical Facilitators are encouraged to introduce assignments as early as possible in the learning module. The Technical Facilitator should describe the assignment to participants and explain how the topics covered in the module will equip them with the knowledge and skills to complete the assignment.
 
 ## How an assignment is expected to be completed and delivered?
-Learners are expected to complete the assignment before the first lecture of the following week. They will deliver the assignment by opening up a pull request on their copied repo. The learner will also add a Learning Support Staff as a reviewer indicating they delivered a completed assignment, and it is ready to be graded as a `pass` or `fail`.
+Participants are expected to complete the assignment by the end of the first week. They will deliver the assignment by opening a pull request on their copied repo. The participants will also add a Learning Support Staff as a reviewer indicating they delivered a completed assignment, and it is ready to be evaluated as `complete` or `incomplete`.
 
-## What are the criteria for `pass` or `fail`?
-The criteria for a `pass` or `fail` is if all parts of the program are working, and nothing in the code is broken. For some assignments, a rubric will be given outlining the criteria needed to pass.
+## What is the criteria for `complete` or `incomplete`?
+The criteria for a `complete` or `incomplete` is if all parts of the program are working, and nothing in the code is broken. For some assignments, a rubric is provided outlining the criteria needed to assess an assignment as incomplete.
 
-## How to mark?
-If the learner's solution works, then they `pass`! You or the Learning Support Staff would only need to focus on providing them constructive feedback on how they can improve their code. If the solution does not work, then they `fail`, and you would provide any constructive feedback on their existing code, and encourage them to get their solution working.
+## How to evaluate?
+If the participant's solution works, then their assignment should be assessed as `complete`! Technical Facilitators and the Learning Support Staff should focus on providing constructive feedback to participants who need to improve their code. If the solution does not work, then the assignment is `incomplete`. Facilitators should provide constructive feedback on their existing code, and guide them to get their solution working.
 
 ## How will feedback be given?
-Feedback will be given through the pull request a learner had made, allowing them to make revisions if needed. To maximize learning, feedback must be constructive, and specific.
+Feedback should be given through the pull request a participant has made. Technical Facilitators are encouraged to allow participants to make revisions if needed. In order to maximize learning, feedback should be constructive, and specific.
 
 <hr>
 
 ## Definitions
-**Lecture**: A Lecture is a synchronous period, lasting up to 3 hours, where the Technical Facilitator will facilitate and deliver the contents and learning outcomes online through Zoom. Learners are encouraged to participate and ask questions as they learn. Breaks are given if the lecture goes past an hour, with a 10-minute break given for every hour still in a lecture.
+**Live Learning Sessions**: A Live Learning Session is a synchronous period of time, lasting up to 2.5 hours, where the Technical Facilitator will facilitate and deliver the content and learning outcomes online through Zoom. Participants are encouraged to participate and ask questions as they learn. 10 minute breaks are encouraged once per hour.
 
-**Work Period**: A Work Period is an asynchronous period, lasting up to 3 hours. The learners will work on their assignments and/or lab during this block of time. A Learning Support Staff will be present online through Zoom to assist the learners and answer any questions they may have. As work periods are asynchronous and flexible, learners can choose to work on their own time. However, it is encouraged to work during the block of time when a Learning Support Staff is present.
+**Work Period**: A Work Period is an asynchronous period of time, lasting up to 3 hours. Participants will work on assignments and/or homework during this block of time. Learning Support Staff are to be present online through Zoom to assist participants and answer any questions they may have. As work periods are asynchronous and flexible, participants can choose to work on their own time. However, it is encouraged that they work during the block of time when a Learning Support Staff is present.
 
-**Assignments**: An Assignment is a work assigned as part of the certification. They are slightly more difficult, providing an opportunity for learners to integrate and synthesize what they have learned throughout the week to meet the set learning outcomes.
+**Assignments**: An Assignment is work assigned as part of the learning modules. They provide an opportunity for participants to integrate and synthesize what they have learned throughout the week to meet the set learning outcomes.
+
+## generate_slides.sh
+
+This script is designed to convert Markdown files located in a specified folder into slide presentations using Marp CLI, allowing for the generation of either HTML or PDF formats based on user input. It includes an option to apply a custom CSS theme to the slides by specifying a theme path. The script also provides a help function detailing its usage, options, and examples for convenience. It ensures the necessary directories exist, validates the presence of Marp CLI on the system, processes each Markdown file found in the specified directory, and outputs the generated slides into a designated output folder, displaying the status of each operation and a completion message. The only configuration needed is to set where the md files are and where you would like the pdf/html files to be placed.
+
