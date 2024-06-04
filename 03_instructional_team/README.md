@@ -1,7 +1,7 @@
 # Technical Facilitator Playbook
 
 ## How do you interact with the repo?
-The Technical Facilitator will deliver the content in the `/01_slides` directory. You are encouraged to live code with participants during live sessions. Please ensure that live coding files are uploaded to a new directory called `/live_code` under `/06_cohort_three` in this repository using a new branch. Please open a pull request for it to be merged.
+The Technical Facilitator will deliver the content in the `/01_materials/slides` directory. You are encouraged to live code with participants during live sessions. Please ensure that live coding files are uploaded to a new directory called `/live_code` under `/04_cohort_three` in this repository using a new branch. Please open a pull request for it to be merged.
 
 ## How does the module flow?
 The module is organized into 3 main directories:
@@ -9,27 +9,27 @@ The module is organized into 3 main directories:
 2. Labs
 3. Assignments
 
-The `/01_slides` directory contains the live learning session slides.
+The `/01_materials/slides` directory contains the live learning session slides.
 
-The `02_labs` directory contains the labs participants would complete after the lecture. It helps participants consolidate the learning. All labs are mandatory to complete.
+The `01_materials/labs` directory contains the labs participants would complete after the lecture. It helps participants consolidate the learning. All labs are mandatory to complete.
 
-The `/03_assignments` contains assignments participants should submit for evaluation as  `complete` or `incomplete`. The assignments measure a participant's achievement of the learning outcomes, and help technical facilitators determine if a participant has successfully completed the learning module.  Compared to `/02_labs`, the assignments are slightly more difficult, and help encapsulate the learnings for the week. All assignments are mandatory to complete.
+The `/02_activities/assignments` contains assignments participants should submit for evaluation as  `complete` or `incomplete`. The assignments measure a participant's achievement of the learning outcomes, and help technical facilitators determine if a participant has successfully completed the learning module.  Compared to `/01_materials/labs`, the assignments are slightly more difficult, and help encapsulate the learnings for the week. All assignments are mandatory to complete.
 
 ### Week 1
 
 | Live Learning Session | Date | Topic                               | Slides                                   | Workbooks                                                                                 | Suggested Additional Material                                                                           |
 | ----- | ---- | ----------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 1     | TBD  | Introduction to Deep Learning       | [Slides](../01_slides/01_introduction.pdf) | [Lab 1 Workbook](../02_labs/lab_1.ipynb) |                                                                                                         |
-| 2     | TBD  | Neural Networks and Backpropagation | [Slides](../01_slides/02_neural_networks_and_backpropagation.pdf) | [Lab 2 Workbook](../02_labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
-| 3     | TBD  | Embeddings and Recommender Systems  | [Slides](../01_slides/03_recommender_systems_&_embeddings.pdf) | [Lab 3 Workbook](../02_labs/lab_3.ipynb) |                                                                                                         |
+| 1     | TBD  | Introduction to Deep Learning       | [Slides](../01_materials/slides/01_introduction.pdf) | [Lab 1 Workbook](../01_materials/labs/lab_1.ipynb) |                                                                                                         |
+| 2     | TBD  | Neural Networks and Backpropagation | [Slides](../01_materials/slides/02_neural_networks_and_backpropagation.pdf) | [Lab 2 Workbook](../01_materials/labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
+| 3     | TBD  | Embeddings and Recommender Systems  | [Slides](../01_materials/slides/03_recommender_systems_&_embeddings.pdf) | [Lab 3 Workbook](../01_materials/labs/lab_3.ipynb) |                                                                                                         |
 
 ### Week 2
 
 | Live Learning Session | Date | Topic                                                     | Slides                                   | Workbooks                                                                                 | Suggested Additional Material |
 | ----- | ---- | --------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------- |
-| 4     | TBD  | Convolutional Neural Networks for Image Classification    | [Slides](../01_slides/04_convolutional_neural_networks.pdf) | [Lab 4 Workbook](../02_labs/lab_4.ipynb) |                               |
-| 5     | TBD  | Deep Learning for Object Detection and Image Segmentation | [Slides](../01_slides/05_convolutional_neural_networks_part_II.pdf) | [Lab 5 Workbook](../02_labs/lab_5.ipynb) |                               |
-| 6     | TBD  | Recurrent Neural Networks and NLP                         | [Slides](../01_slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](../02_labs/lab_6.ipynb) |                               |
+| 4     | TBD  | Convolutional Neural Networks for Image Classification    | [Slides](../01_materials/slides/04_convolutional_neural_networks.pdf) | [Lab 4 Workbook](../01_materials/labs/lab_4.ipynb) |                               |
+| 5     | TBD  | Deep Learning for Object Detection and Image Segmentation | [Slides](../01_materials/slides/05_convolutional_neural_networks_part_II.pdf) | [Lab 5 Workbook](../01_materials/labs/lab_5.ipynb) |                               |
+| 6     | TBD  | Recurrent Neural Networks and NLP                         | [Slides](../01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](../01_materials/labs/lab_6.ipynb) |                               |
 
 ## How do you assign assignments?
 Technical Facilitators are encouraged to introduce assignments as early as possible in the learning module. The Technical Facilitator should describe the assignment to participants and explain how the topics covered in the module will equip them with the knowledge and skills to complete the assignment.
