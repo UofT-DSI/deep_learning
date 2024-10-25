@@ -93,7 +93,7 @@ This module's materials are adapted from the Deep Learning module taught at [Mas
 | 6     | TBD  | Recurrent Neural Networks and NLP                         | [Slides](./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./01_materials/labs/lab_6.ipynb) |                                                                                                         |
  
 ### Requirements
-* Participants are not expected to have any coding experience; the learning content has been designed for beginners.
+* Participants are expected to have completed Shell, Git, and Python learning modules.
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
