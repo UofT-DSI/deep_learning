@@ -13,7 +13,6 @@
     + [Videos](#videos)
     + [How to get help](#how-to-get-help)
 * [Folder Structure](#folder-structure)
-* [Acknowledgements](#acknowledgements)
 
 ## Description
 This module offers both fundamental understanding and practical skills necessary to develop, implement, test, and validate various deep learning models. The curriculum delves into the core concepts of Deep Learning, emphasizing its application across diverse domains. Participants will explore the intricacies of neural networks, backpropagation, and the advanced architectures used in image processing, natural language processing, and more.
