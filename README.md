@@ -117,8 +117,34 @@ Feel free to use the following as resources:
 - [Supervised vs Unsupervised vs Reinforcement Learning](https://www.youtube.com/watch?v=1FZ0A1QCMWc)
 - [3Blue1Brown Neural Networks Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
-### How to get help
-![image](./steps_to_ask_for_help.png)
+### How to Get Help
+#### 1. Gather information about your problem
+- Copy and paste your error message
+- Copy and paste the code that caused the error, and the last few commands leading up to the error
+- Write down what you are trying to accomplish with your code. Include both the specific action, and the bigger picture and context
+- (optional) Take a screenshot of your entire workspace
+
+#### 2. Try searching the web for your error message
+- Sometimes, the error has common solutions that can be easy to find!
+   - This will be faster than waiting for an answer
+- If none of the solutions apply, consider asking a Generative AI tool
+   - Paste your code, the error message, and a description of your overall goals
+
+#### 3. Try asking in your cohort's Slack help channel
+- Since we're all working through the same material, there's a good chance one of your peers has encountered the same error, or has already solved it
+- Try searching in the DSI Certificates Slack help channel for whether a similar query has been posted
+- If the question has not yet been answered, post your question!
+   - Describe your the overall goals, the context, and the specific details of what you were trying to accomplish
+   - Make sure to **copy and paste** your code, your error message
+   - Copying and pasting helps:
+      1. Your peers and teaching team quickly try out your code
+      1. Others to find your question in the future
+
+#### Great resources on how to ask good technical questions that get useful answers
+- [Asking for Help - The Odin Project](https://www.theodinproject.com/lessons/foundations-asking-for-help)
+- [How do I ask a good question? - Stack Overflow](https://stackoverflow.com/help/how-to-ask)
+- [The XY problem: A question pitfall that won't get useful answers](https://xyproblem.info/)
+- [How to create a minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example)
 
 ## Folder Structure
 
@@ -131,8 +157,7 @@ Feel free to use the following as resources:
 ├── 04_cohort_three
 ├── .gitignore
 ├── LICENSE
-├── README.md
-└── steps_to_ask_for_help.png
+└── README.md
 ```
 
 * **.github**: Contains issue templates and pull request templates for the repository.
@@ -143,4 +168,4 @@ Feel free to use the following as resources:
  * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
  * **LICENSE**: The license for this repository.
  * **README.md**: This file.
- * **steps_to_ask_for_help.png**: Guide on how to ask for help.
+ 
