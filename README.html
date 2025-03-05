@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="README_files/libs/clipboard/clipboard.min.js"></script>
+<script src="README_files/libs/quarto-html/quarto.js"></script>
+<script src="README_files/libs/quarto-html/popper.min.js"></script>
+<script src="README_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="README_files/libs/quarto-html/anchor.min.js"></script>
+<link href="README_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="README_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="README_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="README_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="README_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="deep-learning" class="level1">
+<h1>Deep Learning</h1>
+<section id="contents" class="level2">
+<h2 class="anchored" data-anchor-id="contents">Contents</h2>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#learning-outcomes">Learning Outcomes</a></li>
+<li><a href="#assignments">Assignments</a></li>
+<li><a href="#contacts">Contacts</a></li>
+<li><a href="#delivery-of-the-learning-module">Delivery of the Learning Module</a></li>
+<li><a href="#schedule">Schedule</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#resources">Resources</a>
+<ul>
+<li><a href="#documents">Documents</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#how-to-get-help">How to get help</a></li>
+</ul></li>
+<li><a href="#folder-structure">Folder Structure</a></li>
+</ul>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>This module offers both fundamental understanding and practical skills necessary to develop, implement, test, and validate various deep learning models. The curriculum delves into the core concepts of Deep Learning, emphasizing its application across diverse domains. Participants will explore the intricacies of neural networks, backpropagation, and the advanced architectures used in image processing, natural language processing, and more.</p>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>By the end of this learning module, participants will be able to: 1. Apply principles of neural networks, including architectures like CNNs and RNNs. 2. Implement deep learning models for tasks in image processing, NLP, and recommendation systems. 3. Utilize advanced techniques such as sequence-to-sequence models and attention mechanisms. 4. Evaluate and address challenges in model training, imbalanced classification, and metric learning. 5. Use Keras and TensorFlow to emphasize reproducible research. 6. Explain the ethical implications of deep learning models effectively to diverse audiences.</p>
+</section>
+<section id="assignments" class="level2">
+<h2 class="anchored" data-anchor-id="assignments">Assignments</h2>
+<p>The assessment for this module is based on two components: assignments and class participation, including the completion of Jupyter notebooks.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Assessment</th>
+<th>Number</th>
+<th>Individual Weight</th>
+<th>Cumulative Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Assignments</td>
+<td>2</td>
+<td>35%</td>
+<td>70%</td>
+</tr>
+<tr class="even">
+<td>Jupyter Notebooks</td>
+<td>10</td>
+<td>2%</td>
+<td>20%</td>
+</tr>
+<tr class="odd">
+<td>Participation</td>
+<td></td>
+<td></td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Assignments consist of two major tasks completed at the end of the first two weeks.</li>
+<li>Jupyter Notebooks are to be completed throughout the module. Completion of these notebooks is pass/fail.</li>
+<li>Participation includes engagement in class discussions, activities, and overall contribution to the module environment.</li>
+</ul>
+<p><strong>Assignments</strong></p>
+<p>Assignments are a vital part of this module, focusing on the application of deep learning concepts. Two main assignments are scheduled, one at the end of each of the two weeks. These assignments will be introduced in live session and can be discussed with the Technical Facilitator or Learning Support during office hours, work periods or via Slack. They should be completed independently.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Assessment</th>
+<th>Link</th>
+<th>Due Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Assignment 1</td>
+<td><a href="./02_activities/assignments/assignment_1.ipynb">Notebook</a></td>
+<td>Sunday, March 2nd</td>
+</tr>
+<tr class="even">
+<td>Week 1 Workbooks</td>
+<td></td>
+<td>Sunday, March 2nd</td>
+</tr>
+<tr class="odd">
+<td>Assignment 2</td>
+<td><a href="./02_activities/assignments/assignment_2.ipynb">Notebook</a></td>
+<td>Sunday, March 9th</td>
+</tr>
+<tr class="even">
+<td>Week 2 Workbooks</td>
+<td></td>
+<td>Sunday, March 9th</td>
+</tr>
+</tbody>
+</table>
+<p>You may submit assignments multiple times before the deadline. The last submission will be graded.</p>
+<p><strong>Notebook Completion</strong></p>
+<p>Participants are expected to complete the Jupyter notebooks associated with each session. Completion includes actively coding along with the Technical Facilitator and answering any questions in the notebooks. These notebooks are due by the end of each week, but it is highly recommended to complete them as you progress through the material to stay on top of the content. Notebooks are to be submitted for pass/fail assessment.</p>
+<p><strong>Submitting Notebooks</strong></p>
+<p>Notebooks are to be submitted together at the end of each week. You may submit notebooks multiple times before the deadline. The last submission will be graded.</p>
+<p><strong>Participation</strong></p>
+<p>We hope all members of the module regularly participate. We define participation broadly and include attendance, asking questions, answering others’ questions, participating in discussions, etc.</p>
+</section>
+<section id="contacts" class="level2">
+<h2 class="anchored" data-anchor-id="contacts">Contacts</h2>
+<p><strong>Questions can be submitted to the <em>#cohort-5-help</em> channel on Slack</strong></p>
+<ul>
+<li>Technical Facilitator: <strong>Alex Olson</strong> he/him. Emails to the Technical Facilitator can be sent to alex.olson@utoronto.ca.</li>
+<li>Learning Support Staff:
+<ul>
+<li><strong>Nestor Rojas</strong> nestor.rojas@live.com</li>
+<li><strong>Tianyi Liu</strong> tianyi@psi.toronto.edu</li>
+<li><strong>Vishnou Vinayagame</strong> vishnou.vina@hotmail.fr</li>
+</ul></li>
+</ul>
+</section>
+<section id="delivery-of-the-learning-module" class="level2">
+<h2 class="anchored" data-anchor-id="delivery-of-the-learning-module">Delivery of the Learning Module</h2>
+<p>This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under <code>/01_materials/slides</code>. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under <code>./04_cohort_five/live_code</code>.</p>
+<p>Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. &nbsp; Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify.</p>
+<p>This module’s materials are adapted from the Deep Learning module taught at <a href="https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistiques/master-year-2-data-science">Master Year 2 Data Science IP-Paris</a>. The module includes comprehensive lectures and lab notebooks covering fundamental and advanced topics in Deep Learning. While there is no designated textbook for this module, the adapted materials provide a thorough exploration of the subject, incorporating a blend of theoretical knowledge and practical applications.</p>
+</section>
+<section id="schedule" class="level2">
+<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Live Learning Session</th>
+<th>Date</th>
+<th>Topic</th>
+<th>Slides</th>
+<th>Workbooks</th>
+<th>Suggested Additional Material</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Tuesday, February 25th</td>
+<td>Introduction to Deep Learning</td>
+<td><a href="./01_materials/slides/01_introduction.pdf">Slides</a></td>
+<td><a href="./01_materials/labs/lab_1.ipynb">Lab 1 Workbook</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Wednesday, February 26th</td>
+<td>Neural Networks and Backpropagation</td>
+<td><a href="./01_materials/slides/02_neural_networks_and_backpropagation.pdf">Slides</a></td>
+<td><a href="./01_materials/labs/lab_2.ipynb">Lab 2 Workbook</a></td>
+<td><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown Neural Networks</a></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Thursday, February 27th</td>
+<td>Embeddings and Recommender Systems</td>
+<td><a href="./01_materials/slides/03_recommender_systems_&amp;_embeddings.pdf">Slides</a></td>
+<td><a href="./01_materials/labs/lab_3.ipynb">Lab 3 Workbook</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Tuesday, March 4th</td>
+<td>Convolutional Neural Networks for Image Classification</td>
+<td><a href="./01_materials/slides/04_convolutional_neural_networks.pdf">Slides</a></td>
+<td><a href="./01_materials/labs/lab_4.ipynb">Lab 4 Workbook</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Wednesday, March 5th</td>
+<td>Deep Learning for Object Detection and Image Segmentation</td>
+<td><a href="./01_materials/slides/05_convolutional_neural_networks_part_II.pdf">Slides</a></td>
+<td><a href="./01_materials/labs/lab_5.ipynb">Lab 5 Workbook</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Thursday, March 6th</td>
+<td>Recurrent Neural Networks and NLP</td>
+<td><a href="./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf">Slides</a></td>
+<td><a href="./01_materials/labs/lab_6.ipynb">Lab 6 Workbook</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp; ### Requirements * Participants are expected to have completed Shell, Git, Python, Linear Regression, Classification, and Resampling, Production, and Algorithms &amp; Data Structures learning modules. * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience. * Participants must have a computer and an internet connection to participate in online activities. * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have. * We expect participants to have completed the instructions mentioned in the <a href="https://github.com/UofT-DSI/onboarding/">onboarding repo</a>. * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. * Participants must have VSCode installed with the following extensions: * <a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter">Jupyter</a> * <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>Feel free to use the following as resources:</p>
+<section id="documents" class="level3">
+<h3 class="anchored" data-anchor-id="documents">Documents</h3>
+<ul>
+<li><a href="https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning">Cheatsheet</a></li>
+<li><a href="https://www.datacamp.com/cheat-sheet/keras-cheat-sheet-neural-networks-in-python">Keras Cheatsheet</a></li>
+</ul>
+</section>
+<section id="videos" class="level3">
+<h3 class="anchored" data-anchor-id="videos">Videos</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=6M5VXKLf4D4">What is Deep Learning?</a></li>
+<li><a href="https://www.youtube.com/watch?v=bfmFfD2RIcg">Neural Network in 5 minutes</a></li>
+<li><a href="https://www.youtube.com/watch?v=CMrHM8a3hqw">What is NLP?</a></li>
+<li><a href="https://www.youtube.com/watch?v=TJveOYsK6MY">Classification and Regression in Machine Learning</a></li>
+<li><a href="https://www.youtube.com/watch?v=1FZ0A1QCMWc">Supervised vs Unsupervised vs Reinforcement Learning</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown Neural Networks Playlist</a></li>
+</ul>
+</section>
+<section id="how-to-get-help" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-get-help">How to Get Help</h3>
+<section id="gather-information-about-your-problem" class="level4">
+<h4 class="anchored" data-anchor-id="gather-information-about-your-problem">1. Gather information about your problem</h4>
+<ul>
+<li>Copy and paste your error message</li>
+<li>Copy and paste the code that caused the error, and the last few commands leading up to the error</li>
+<li>Write down what you are trying to accomplish with your code. Include both the specific action, and the bigger picture and context</li>
+<li>(optional) Take a screenshot of your entire workspace</li>
+</ul>
+</section>
+<section id="try-searching-the-web-for-your-error-message" class="level4">
+<h4 class="anchored" data-anchor-id="try-searching-the-web-for-your-error-message">2. Try searching the web for your error message</h4>
+<ul>
+<li>Sometimes, the error has common solutions that can be easy to find!
+<ul>
+<li>This will be faster than waiting for an answer</li>
+</ul></li>
+<li>If none of the solutions apply, consider asking a Generative AI tool
+<ul>
+<li>Paste your code, the error message, and a description of your overall goals</li>
+</ul></li>
+</ul>
+</section>
+<section id="try-asking-in-your-cohorts-slack-help-channel" class="level4">
+<h4 class="anchored" data-anchor-id="try-asking-in-your-cohorts-slack-help-channel">3. Try asking in your cohort’s Slack help channel</h4>
+<ul>
+<li>Since we’re all working through the same material, there’s a good chance one of your peers has encountered the same error, or has already solved it</li>
+<li>Try searching in the DSI Certificates Slack help channel for whether a similar query has been posted</li>
+<li>If the question has not yet been answered, post your question!
+<ul>
+<li>Describe your the overall goals, the context, and the specific details of what you were trying to accomplish</li>
+<li>Make sure to <strong>copy and paste</strong> your code, your error message</li>
+<li>Copying and pasting helps:
+<ol type="1">
+<li>Your peers and teaching team quickly try out your code</li>
+<li>Others to find your question in the future</li>
+</ol></li>
+</ul></li>
+</ul>
+</section>
+<section id="great-resources-on-how-to-ask-good-technical-questions-that-get-useful-answers" class="level4">
+<h4 class="anchored" data-anchor-id="great-resources-on-how-to-ask-good-technical-questions-that-get-useful-answers">Great resources on how to ask good technical questions that get useful answers</h4>
+<ul>
+<li><a href="https://www.theodinproject.com/lessons/foundations-asking-for-help">Asking for Help - The Odin Project</a></li>
+<li><a href="https://stackoverflow.com/help/how-to-ask">How do I ask a good question? - Stack Overflow</a></li>
+<li><a href="https://xyproblem.info/">The XY problem: A question pitfall that won’t get useful answers</a></li>
+<li><a href="https://stackoverflow.com/help/minimal-reproducible-example">How to create a minimal reproducible example</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="folder-structure" class="level2">
+<h2 class="anchored" data-anchor-id="folder-structure">Folder Structure</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>.</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>├── .github</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>├── 01_materials</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>├── 02_activities</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>├── 03_instructional_team</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>├── 04_cohort_five</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>├── .gitignore</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>├── LICENSE</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>└── README.md</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><strong>.github</strong>: Contains issue templates and pull request templates for the repository.</li>
+<li><strong>materials</strong>: Module slides and interactive notebooks (.ipynb files) used during learning sessions.</li>
+<li><strong>activities</strong>: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.</li>
+<li><strong>instructional_team</strong>: Resources for the instructional team.</li>
+<li><strong>cohort_five</strong>: Additional materials and resources for cohort five.</li>
+<li><strong>.gitignore</strong>: Files to exclude from this folder, specified by the Technical Facilitator</li>
+<li><strong>LICENSE</strong>: The license for this repository.</li>
+<li><strong>README.md</strong>: This file.</li>
+</ul>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
