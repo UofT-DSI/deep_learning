@@ -46,10 +46,10 @@ Assignments are a vital part of this module, focusing on the application of deep
 
 | Assessment   | Link                                            | Due Date |
 | ------------ | ----------------------------------------------- | -------- |
-| Assignment 1 | [Notebook](./02_activities/assignments/assignment_1.ipynb) | Monday, July 7th      |
-| Week 1 Workbooks    |                                                 | Monday, July 7th      |
-| Assignment 2 | [Notebook](./02_activities/assignments/assignment_2.ipynb) | Monday, July 14th      |
-| Week 2 Workbooks    |                                                 | Monday, July 14th      |
+| Assignment 1 | [Notebook](./02_activities/assignments/assignment_1.ipynb) | Sunday, July 6th      |
+| Week 1 Workbooks    |                                                 | Sunday, July 6th      |
+| Assignment 2 | | Friday, July 18th      |
+| Week 2+3 Workbooks    |                                                 | Friday, July 18th      |
 
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
@@ -68,7 +68,7 @@ You may submit notebooks multiple times before the deadline. The last submission
 We hope all members of the module regularly participate. We define participation broadly and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
 ## Contacts
-**Questions can be submitted to the _#cohort-5-help_ channel on Slack**
+**Questions can be submitted to the _#cohort-6-ml-help_ channel on Slack**
 
 * Technical Facilitator: **Alex Olson** he/him. Emails to the Technical Facilitator can be sent to alex.olson@utoronto.ca.
 * Learning Support Staff: 
