@@ -48,7 +48,7 @@ Assignments are a vital part of this module, focusing on the application of deep
 | ------------ | ----------------------------------------------- | -------- |
 | Assignment 1 | [Notebook](./02_activities/assignments/assignment_1.ipynb) | Sunday, July 6th      |
 | Week 1 Workbooks    |                                                 | Sunday, July 6th      |
-| Assignment 2 | | Friday, July 18th      |
+| Assignment 2 | [Notebook](./02_activities/assignments/assignment_2.ipynb) | Friday, July 18th      |
 | Week 2+3 Workbooks    |                                                 | Friday, July 18th      |
 
 
