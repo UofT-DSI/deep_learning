@@ -102,7 +102,7 @@ This module's materials are adapted from the Deep Learning module taught at [Mas
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+* We expect participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 * Participants must have VSCode installed with the following extensions: 
     * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
@@ -163,6 +163,7 @@ Feel free to use the following as resources:
 ├── 04_cohort_six
 ├── .gitignore
 ├── LICENSE
+├── SETUP.md
 └── README.md
 ```
 
@@ -173,5 +174,6 @@ Feel free to use the following as resources:
  * **cohort_six**: Additional materials and resources for cohort six.
  * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
  * **LICENSE**: The license for this repository.
+ * **SETUP.md**: Contains the instructions for creating and activating the environment, and installing any packages needed for this specific module.
  * **README.md**: This file.
  
