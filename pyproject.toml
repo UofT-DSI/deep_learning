@@ -1,0 +1,20 @@
+[project]
+name = "deep-learning-env"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "h5py>=3.14.0",
+    "ipython>=9.5.0",
+    "keras>=3.11.3",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "plotly>=6.3.0",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "sequence>=0.8.0",
+    "tensorflow>=2.20.0",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+    "umap>=0.1.1",
+]
