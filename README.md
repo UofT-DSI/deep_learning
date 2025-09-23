@@ -164,16 +164,18 @@ Feel free to use the following as resources:
 ├── .gitignore
 ├── LICENSE
 ├── SETUP.md
+├── pyproject.toml
 └── README.md
 ```
 
 * **.github**: Contains issue templates and pull request templates for the repository.
- * **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
- * **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
- * **instructional_team**: Resources for the instructional team.
- * **cohort_six**: Additional materials and resources for cohort six.
- * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
- * **LICENSE**: The license for this repository.
- * **SETUP.md**: Contains the instructions for creating and activating the environment, and installing any packages needed for this specific module.
- * **README.md**: This file.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **cohort_six**: Additional materials and resources for cohort six.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **SETUP.md**: Contains the steps required to set up this repo for the module.
+* **pyproject.toml**: Tells Python which packages this repo needs to run.
+* **README.md**: This file.
  
