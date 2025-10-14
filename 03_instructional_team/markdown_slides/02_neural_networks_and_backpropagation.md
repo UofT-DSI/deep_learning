@@ -1,11 +1,14 @@
 ---
 marp: true
-theme: dsi-certificates-theme
+theme: dsi_certificates_theme
 _class: invert
 paginate: true
 ---
 
 # Neural networks and Backpropagation
+```
+$ echo "Data Sciences Institute"
+```
 
 <!--
 Warning: This lecture is more theoretical compared to the other lectures.
