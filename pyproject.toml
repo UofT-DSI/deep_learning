@@ -1,0 +1,32 @@
+[project]
+name = "deep-learning"
+version = "0.1.0"
+description = "Deep Learning module labs and assignments"
+requires-python = ">=3.11"
+dependencies = [
+    "tensorflow",
+    "keras",
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "accelerate>=0.20.0",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "plotly>=5.0.0",
+    "scikit-image>=0.21.0",
+    "opencv-python>=4.8.0",
+    "imageio[pyav]>=2.33.0",
+    "tqdm>=4.65.0",
+    "transformers>=4.30.0",
+    "umap-learn>=0.5.0",
+    "pillow",
+    "ipykernel",
+    "jupyter",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
