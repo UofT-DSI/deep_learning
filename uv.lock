@@ -528,6 +528,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "accelerate" },
+    { name = "h5py" },
     { name = "imageio", extra = ["pyav"] },
     { name = "ipykernel" },
     { name = "jupyter" },
@@ -552,6 +553,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "accelerate", specifier = ">=0.20.0" },
+    { name = "h5py" },
     { name = "imageio", extras = ["pyav"], specifier = ">=2.33.0" },
     { name = "ipykernel" },
     { name = "jupyter" },

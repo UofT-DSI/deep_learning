@@ -24,6 +24,7 @@ dependencies = [
     "pillow",
     "ipykernel",
     "jupyter",
+    "h5py",
 ]
 
 [build-system]
