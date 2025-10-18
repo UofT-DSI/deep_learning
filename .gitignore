@@ -25,3 +25,8 @@ test_notebooks/
 voc_representations.h5
 VOCdevkit/
 VOCtrainval_06-Nov-2007.tar.gz
+
+# Python virtual environments
+.venv
+uv.lock
+deep-learning-env

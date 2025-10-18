@@ -25,9 +25,9 @@ dependencies = [
     "ipykernel",
     "jupyter",
     "h5py",
+    "ipython>=9.5.0",
 ]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
