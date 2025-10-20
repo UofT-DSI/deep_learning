@@ -76,7 +76,7 @@ We hope all members of the module regularly participate. We define participation
   
 
 ## Delivery of the Learning Module
-This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_materials/slides`. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under `./04_cohort_seven/live_code`.
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_materials/slides`. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under `./04_this_cohort/live_code`.
 
 Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
@@ -158,11 +158,9 @@ Feel free to use the following as resources:
 ├── 01_materials
 ├── 02_activities
 ├── 03_instructional_team
-├── 04_cohort_seven
+├── 04_this_cohort
 ├── .gitignore
 ├── LICENSE
-├── SETUP.md
-├── pyproject.toml
 └── README.md
 ```
 
@@ -170,10 +168,8 @@ Feel free to use the following as resources:
 * **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
 * **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
 * **instructional_team**: Resources for the instructional team.
-* **cohort_seven**: Additional materials and resources for cohort seven.
+* **this_cohort**: Additional materials and resources for this cohort.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
-* **SETUP.md**: Contains the steps required to set up this repo for the module.
-* **pyproject.toml**: Tells Python which packages this repo needs to run.
 * **README.md**: This file.
  
