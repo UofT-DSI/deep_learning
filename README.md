@@ -66,7 +66,7 @@ You may submit notebooks multiple times before the deadline. The last submission
 We hope all members of the module regularly participate. We define participation broadly and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
 ## Contacts
-**Questions can be submitted to the _#cohort-7-ml-help_ channel on Slack**
+**Questions can be submitted to the _#cohort-7-help-ml_ channel on Slack**
 
 * Technical Facilitator: **Alex Olson** he/him. Emails to the Technical Facilitator can be sent to alex.olson@utoronto.ca.
 * Learning Support Staff: 
