@@ -33,10 +33,10 @@ The assessment for this module is based on two components: assignments and class
 | Assessment        | Number | Individual Weight | Cumulative Weight |
 | ----------------- | ------ | ----------------- | ----------------- |
 | Assignments       | 2      | 35%               | 70%               |
-| Jupyter Notebooks | 10     | 2%                | 20%               |
+| Jupyter Notebooks | 6      | 3.33%             | 20%               |
 | Participation     |        |                   | 10%               |
 
-- Assignments consist of two major tasks completed at the end of the first two weeks.
+- Assignments consist of two major tasks, one at the end of each week of the schedule.
 - Jupyter Notebooks are to be completed throughout the module. Completion of these notebooks is pass/fail.
 - Participation includes engagement in class discussions, activities, and overall contribution to the module environment.
 
@@ -44,12 +44,10 @@ The assessment for this module is based on two components: assignments and class
 
 Assignments are a vital part of this module, focusing on the application of deep learning concepts. Two main assignments are scheduled, one at the end of each of the two weeks. These assignments will be introduced in live session and can be discussed with the Technical Facilitator or Learning Support during office hours, work periods or via Slack. They should be completed independently.
 
-| Assessment   | Link                                            | Due Date |
-| ------------ | ----------------------------------------------- | -------- |
-| Assignment 1 | [Notebook](./02_activities/assignments/assignment_1.ipynb) | Sunday, July 6th      |
-| Week 1 Workbooks    |                                                 | Sunday, July 6th      |
-| Assignment 2 | [Notebook](./02_activities/assignments/assignment_2.ipynb) | Friday, July 18th      |
-| Week 2+3 Workbooks    |                                                 | Friday, July 18th      |
+| Submission Deadline      | Materials Due                                                                                           |
+|-------------------------|-----------------------------------------------------------------------------------------------------------|
+| Sunday, October 26th    | [Assignment 1 Notebook](./02_activities/assignments/assignment_1.ipynb), [Lab 1](./01_materials/labs/lab_1.ipynb), [Lab 2](./01_materials/labs/lab_2.ipynb), [Lab 3](./01_materials/labs/lab_3.ipynb) |
+| Sunday, November 2nd    | [Assignment 2 Notebook](./02_activities/assignments/assignment_2.ipynb), [Lab 4](./01_materials/labs/lab_4.ipynb), [Lab 5](./01_materials/labs/lab_5.ipynb), [Lab 6](./01_materials/labs/lab_6.ipynb) |
 
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
@@ -68,17 +66,17 @@ You may submit notebooks multiple times before the deadline. The last submission
 We hope all members of the module regularly participate. We define participation broadly and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
 ## Contacts
-**Questions can be submitted to the _#cohort-6-ml-help_ channel on Slack**
+**Questions can be submitted to the _#cohort-7-help-ml_ channel on Slack**
 
 * Technical Facilitator: **Alex Olson** he/him. Emails to the Technical Facilitator can be sent to alex.olson@utoronto.ca.
 * Learning Support Staff: 
-  * **Emma Teng** e.teng@mail.utoronto.ca
   * **Tianyi Liu** tianyi@psi.toronto.edu
   * **Edward Chen** edwardty.chen@utoronto.ca
+  * **Nestor Rojas** nestor.rojas@live.com
   
 
 ## Delivery of the Learning Module
-This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_materials/slides`. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under `./04_cohort_six/live_code`.
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. The Technical Facilitator will introduce concepts through a collaborative live coding session using the Python notebooks found under `/01_materials/slides`. The Technical Facilitator will also upload live coding files to this repository for participants to revisit under `./04_this_cohort/live_code`.
 
 Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
@@ -90,19 +88,19 @@ This module's materials are adapted from the Deep Learning module taught at [Mas
 
 | Live Learning Session | Date | Topic                                                     | Slides                                                                                | Workbooks                               | Suggested Additional Material                                                                           |
 | ----- | ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 1     | Wednesday, July 2nd  | Introduction to Deep Learning                             | [Slides](./01_materials/slides/01_introduction.pdf)                                   | [Lab 1 Workbook](./01_materials/labs/lab_1.ipynb) |                                                                                                         |
-| 2     | Thursday, July 3rd  | Neural Networks and Backpropagation                       | [Slides](./01_materials/slides/02_neural_networks_and_backpropagation.pdf)            | [Lab 2 Workbook](./01_materials/labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
-| 3     | Tuesday, July 8th  | Embeddings and Recommender Systems                        | [Slides](./01_materials/slides/03_recommender_systems_&_embeddings.pdf)               | [Lab 3 Workbook](./01_materials/labs/lab_3.ipynb) |                                                                                                         |
-| 4     | Wednesday, July 9th  | Convolutional Neural Networks for Image Classification    | [Slides](./01_materials/slides/04_convolutional_neural_networks.pdf)                  | [Lab 4 Workbook](./01_materials/labs/lab_4.ipynb) |                                                                                                         |
-| 5     | Thursday, July 10th  | Deep Learning for Object Detection and Image Segmentation | [Slides](./01_materials/slides/05_convolutional_neural_networks_part_II.pdf)          | [Lab 5 Workbook](./01_materials/labs/lab_5.ipynb) |                                                                                                         |
-| 6     | Tuesday, July 15th  | Recurrent Neural Networks and NLP                         | [Slides](./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./01_materials/labs/lab_6.ipynb) |                                                                                                         |
+| 1     | Tuesday, October 21st  | Introduction to Deep Learning                             | [Slides](./01_materials/slides/01_introduction.pdf)                                   | [Lab 1 Workbook](./01_materials/labs/lab_1.ipynb) |                                                                                                         |
+| 2     | Wednesday, October 22nd  | Neural Networks and Backpropagation                       | [Slides](./01_materials/slides/02_neural_networks_and_backpropagation.pdf)            | [Lab 2 Workbook](./01_materials/labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
+| 3     | Thursday, October 23rd  | Embeddings and Recommender Systems                        | [Slides](./01_materials/slides/03_recommender_systems_&_embeddings.pdf)               | [Lab 3 Workbook](./01_materials/labs/lab_3.ipynb) |                                                                                                         |
+| 4     | Tuesday, October 28th  | Convolutional Neural Networks for Image Classification    | [Slides](./01_materials/slides/04_convolutional_neural_networks.pdf)                  | [Lab 4 Workbook](./01_materials/labs/lab_4.ipynb) |                                                                                                         |
+| 5     | Wednesday, October 29th  | Deep Learning for Object Detection and Image Segmentation | [Slides](./01_materials/slides/05_convolutional_neural_networks_part_II.pdf)          | [Lab 5 Workbook](./01_materials/labs/lab_5.ipynb) |                                                                                                         |
+| 6     | Thursday, October 30th  | Recurrent Neural Networks and NLP                         | [Slides](./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./01_materials/labs/lab_6.ipynb) |                                                                                                         |
  
 ### Requirements
 * Participants are expected to have completed Shell, Git, Python, Linear Regression, Classification, and Resampling, Production, and Algorithms & Data Structures learning modules.
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+* We expect participants to have completed the instructions mentioned in the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 * Participants must have VSCode installed with the following extensions: 
     * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
@@ -160,18 +158,18 @@ Feel free to use the following as resources:
 ├── 01_materials
 ├── 02_activities
 ├── 03_instructional_team
-├── 04_cohort_six
+├── 04_this_cohort
 ├── .gitignore
 ├── LICENSE
 └── README.md
 ```
 
 * **.github**: Contains issue templates and pull request templates for the repository.
- * **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
- * **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
- * **instructional_team**: Resources for the instructional team.
- * **cohort_six**: Additional materials and resources for cohort six.
- * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
- * **LICENSE**: The license for this repository.
- * **README.md**: This file.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **this_cohort**: Additional materials and resources for this cohort.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **README.md**: This file.
  

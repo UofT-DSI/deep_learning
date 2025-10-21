@@ -19,3 +19,9 @@
 02_activities/assignments/best_model/
 02_activities/assignments/*.zip
 02_activities/assignments/*.txt
+test_notebooks/
+
+# Large artifacts generated during labs
+voc_representations.h5
+VOCdevkit/
+VOCtrainval_06-Nov-2007.tar.gz
