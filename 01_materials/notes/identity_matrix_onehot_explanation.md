@@ -4,13 +4,12 @@ When we represent categorical data in deep learning, we often use **one-hot enco
 If there are $K$ possible categories, then the set of all one-hot vectors forms the **identity matrix** $I_K$:
 
 $$
-I_K =
-\begin{bmatrix}
-1 & 0 & 0 & \dots & 0\\
-0 & 1 & 0 & \dots & 0\\
-\vdots &   & \ddots & & \vdots\\
-0 & 0 & 0 & \dots & 1
-\end{bmatrix}
+I_K = \left[\begin{array}{ccccc}
+1 & 0 & 0 & \cdots & 0\\
+0 & 1 & 0 & \cdots & 0\\
+\vdots & \vdots & \ddots & \ddots & \vdots\\
+0 & 0 & 0 & \cdots & 1
+\end{array}\right]
 $$
 
 Each row of $I_K$ corresponds to the one-hot representation of one category.
