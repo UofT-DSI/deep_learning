@@ -46,7 +46,7 @@ Internally, this calls:
 tf.gather(W, indices, axis=0)
 ```
 
-This operation retrieves the required rows of \( W \) **directly from memory**, achieving the same mathematical result as multiplying by \( I_K \), but without constructing or multiplying the large sparse matrix.
+This operation retrieves the required rows of $W$ **directly from memory**, achieving the same mathematical result as multiplying by $I_K$, but without constructing or multiplying the large sparse matrix.
 
 ---
 
@@ -58,12 +58,12 @@ However, **there’s no performance advantage in doing that manually** — Tenso
 Here’s why:
 
 - When you provide an index (e.g., word ID 42), TensorFlow automatically treats it as referring to the **42nd row of the identity matrix** conceptually.  
-- That row corresponds to the same position in the embedding matrix \( W \).  
-- TensorFlow’s `tf.gather` operation performs a **direct memory lookup** at that position.  
+- That row corresponds to the same position in the embedding matrix $W$.  
+- TensorFlow's `tf.gather` operation performs a **direct memory lookup** at that position.  
 
 This means:
-- You don’t have to pre-sort or arrange your one-hot vectors in any particular order.  
-- The embedding lookup operation is **agnostic** to the ordering of your categories — it simply matches each index to the correct row of \( W \).  
+- You don't have to pre-sort or arrange your one-hot vectors in any particular order.  
+- The embedding lookup operation is **agnostic** to the ordering of your categories — it simply matches each index to the correct row of $W$.
 - Attempting to “pre-organize” your categories as an explicit identity matrix would just waste time and memory, because TensorFlow already assumes and optimizes for that structure.
 
 So conceptually:
@@ -100,8 +100,8 @@ They perform efficient **row selection (embedding lookup)** rather than explicit
 | Concept | Mathematical View | Implementation | Speed |
 |----------|------------------|----------------|--------|
 | One-hot encoding | Rows of identity matrix | Represented as integer indices | Fast |
-| Dense multiplication | \( I_K[\text{indices}] W \) | `tf.matmul(tf.one_hot(...), W)` | Slow |
-| Embedding lookup | \( W[\text{indices}] \) | `tf.nn.embedding_lookup(W, indices)` | Very Fast |
+| Dense multiplication | $I_K[\text{indices}] W$ | `tf.matmul(tf.one_hot(...), W)` | Slow |
+| Embedding lookup | $W[\text{indices}]$ | `tf.nn.embedding_lookup(W, indices)` | Very Fast |
 | TensorFlow optimization | Skips zeros in one-hot | Uses `tf.gather` for direct memory access | Optimal |
 | Ordering of one-hot vectors | Irrelevant | TensorFlow handles mapping internally | No manual benefit |
 
