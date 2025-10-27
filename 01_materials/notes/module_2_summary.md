@@ -123,14 +123,20 @@ loss = -np.sum(y_onehot * np.log(P + 1e-10)) / X.shape[0]
 A one-hot encoded vector is a row of the **identity matrix**.
 
 Example for 4 categories:
-$$I_4 = \begin{matrix}
-1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 1 & 0\\
+
+$$
+I_4 =
+\begin{array}{cccc}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 1
-\end{matrix}$$
+\end{array}
+$$
 
 Each sample’s one-hot representation corresponds to one row of this identity matrix.
+
+
 
 **Key Insight**
 Multiplying a one-hot vector by a weight matrix $W$ is the same as **selecting a row of $W$**.
