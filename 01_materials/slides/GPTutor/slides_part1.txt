@@ -1,0 +1,132 @@
+Opening and Overview
+
+Good afternoon everyone. Today we turn our attention to one of the most influential ideas in modern artificial intelligence — the convolutional neural network, or CNN for short.
+Our goal is to understand not only how CNNs operate, but also why they so thoroughly transformed the field of computer vision and, indeed, much of deep learning itself.
+
+By the end of the hour you should appreciate the key building blocks — convolutions, pooling, parameter sharing — and how they combine into powerful architectures such as VGG and ResNet.
+We’ll also discuss practical matters such as transfer learning and data augmentation, and close with a look at where convolutional methods now stand in the age of transformers.
+
+Let’s begin with the problem CNNs were created to solve.
+
+Motivation: Why Convolutional Networks?
+
+Traditional fully connected neural networks are wonderfully general mathematical objects, but when confronted with images they behave rather like an elephant attempting ballet — technically possible, but spectacularly inefficient.
+A 256 × 256 colour image contains nearly two hundred thousand input values. Connect each one to even a modest hidden layer and you’re already dealing with tens of millions of parameters. Worse still, flattening an image into a one-dimensional vector destroys the very property that makes an image an image: its spatial structure.
+
+The convolutional network solves both problems. It introduces local receptive fields, where each neuron looks only at a small patch of pixels, and parameter sharing, where the same small filter slides, or convolves, across the entire image. This preserves spatial relationships while keeping parameter counts manageable. It’s a rather elegant solution — the network learns to recognise edges, corners and textures wherever they appear, much as our own visual cortex does.
+
+From Dense to Convolutional Layers
+
+To appreciate the difference, imagine two students attempting to identify animals in photographs.
+The first insists on memorising the position of every pixel — that’s the fully connected approach.
+The second, more sensible student, learns to recognise features such as fur texture or ear shape, regardless of where they occur — that’s the convolutional approach.
+
+Each convolutional filter is like a pattern detector, scanning the image and producing a feature map showing where that pattern occurs.
+Because the same filter weights are reused at every location, the model becomes naturally translation-invariant: it recognises a cat even if the cat wanders across the frame.
+
+The Mechanics of Convolution
+
+Let’s look more closely at the operation itself.
+Picture a small grid of numbers — perhaps three by three — that we slide across the image.
+At each position we multiply the overlapping pixels by the corresponding weights and sum them.
+That sum becomes one pixel in the output feature map.
+Repeat across the image and you’ve performed a convolution.
+
+By learning the values of those nine weights, the network learns a visual primitive.
+Early layers typically discover simple features such as horizontal or vertical edges.
+Deeper layers combine these primitives into more complex motifs — eyes, wheels, petals — until finally the network is sensitive to whole objects.
+
+The mathematics may sound forbidding, but conceptually it’s just pattern matching with learnable templates.
+
+Strides and Padding
+
+Two small but important design choices govern how the filter moves: stride and padding.
+
+The stride determines how many pixels the filter shifts each time.
+A stride of one yields a detailed, overlapping scan; a stride of two skips every other position, halving the spatial resolution and speeding computation.
+Use too large a stride and you risk missing fine details — rather like speed-reading and overlooking crucial adjectives.
+
+Padding addresses what happens at the image borders.
+Without padding, each convolution shrinks the image slightly, because the filter can’t extend beyond the edge.
+By padding with zeros — or occasionally reflected pixels — we preserve the original size and ensure that border information is not lost.
+These small practicalities are what make CNNs so beautifully scalable.
+
+Pooling: A Taste for Abstraction
+
+Next, pooling.
+Pooling layers reduce spatial resolution while retaining the most salient information.
+The most common variant, max pooling, takes the maximum value in a small region, effectively saying, “Did anything interesting happen here?”
+Average pooling takes the mean, producing a smoother, gentler summary.
+
+Pooling introduces a useful property called translation invariance.
+If an object shifts slightly within the image, the pooled representation remains largely unchanged.
+In human terms, it’s like recognising your friend whether they stand on the left or right side of a photograph.
+
+Pooling also reduces computational cost and helps prevent overfitting by forcing the network to generalise from broader patterns rather than memorising every pixel.
+
+Building Blocks: The CNN Architecture
+
+A typical convolutional network alternates between convolutional and pooling layers.
+At the bottom, low-level filters detect edges and colour contrasts.
+Higher up, combinations of those features detect shapes, patterns and ultimately semantic categories such as “cat” or “airplane.”
+Near the top, we flatten the spatial maps and attach one or more fully connected layers that perform the final classification.
+
+It’s a hierarchical model of perception — and one that mirrors how biological vision is believed to operate: simple cells detecting edges feed into complex cells detecting shapes, and so on.
+
+Early Success: LeNet and the Birth of Deep Vision
+
+Historically, the first triumph of this idea was LeNet-5, developed by Yann LeCun in the 1990s to read handwritten digits on bank cheques.
+With a few convolutional and pooling layers followed by dense connections, it achieved remarkable accuracy for its time.
+However, hardware limitations kept deeper networks impractical for many years.
+
+Then, around 2012, came the breakthrough — AlexNet. Trained on millions of images using GPUs and employing the newly fashionable ReLU activation and dropout regularisation, AlexNet achieved a staggering improvement on the ImageNet benchmark.
+That single result ignited the modern deep-learning revolution. Practically overnight, handcrafted feature engineering became obsolete.
+
+VGG Networks: Depth through Simplicity
+
+Following AlexNet, researchers at Oxford introduced VGG Net.
+Its philosophy was minimalist: use only small 3 × 3 convolutions, but stack them deeply — 16 or 19 layers.
+This choice allowed fine spatial detail to accumulate across many transformations, yielding rich, highly expressive features.
+
+VGG demonstrated that depth, when properly managed, improves representation power.
+It also gave us a beautifully uniform architecture — easy to implement and a favourite baseline for years to come.
+The downside, alas, was bloat: 138 million parameters make it something of a gourmand in both memory and computation.
+
+Even so, VGG laid the foundation for transfer learning. Many of today’s practical applications still begin by borrowing its pre-trained weights.
+
+The Limits of Depth
+
+Of course, there are limits to enthusiasm.
+As networks grew deeper, researchers discovered that training became increasingly difficult.
+Rather than simply plateauing, accuracy sometimes decreased as layers were added.
+The culprit was the vanishing gradient: as the error signal back-propagated through dozens of layers, it diminished to insignificance, leaving the early layers frozen and the model untrainable.
+
+We needed a mechanism to let information flow more freely through the network — and that leads us neatly to one of the great innovations in modern deep learning: the residual connection.
+
+ResNet: Learning Residuals, Not Redundancies
+
+The Residual Network, or ResNet, introduced by Kaiming He and colleagues in 2015, proposed a deceptively simple idea.
+Instead of each layer trying to learn an entirely new mapping from input x to output y, why not let it learn only the residual — the difference between them?
+Mathematically, the layer outputs F(x) + x, where x is passed forward through a skip connection.
+
+These shortcut paths act like express lanes for gradients, preventing them from fading away during back-propagation.
+With this tweak, networks of 50, 101 or even 152 layers trained reliably and achieved record-breaking accuracy on ImageNet.
+ResNet showed that the obstacle wasn’t excessive depth, but poor information flow.
+
+Its success inspired entire families of architectures — DenseNets, Wide ResNets, ResNeXts — all exploring new ways of combining features across layers.
+
+Comparing ResNet and VGG
+
+If we compare ResNet 50 to VGG 16, the difference is almost comical.
+ResNet delivers higher accuracy with barely one-sixth the number of parameters and a fraction of the computational cost.
+The skip connections also allow the model to generalise better, as information from earlier layers remains accessible rather than buried.
+
+This efficiency shifted research focus from sheer size to architecture design: clever wiring now mattered as much as brute force.
+
+Transition to Transfer Learning
+
+So far, we’ve discussed networks trained from scratch. But in practice, that’s seldom necessary.
+Modern data sets rarely match ImageNet’s scale, and training such massive models anew would be both expensive and wasteful.
+Instead, we reuse the knowledge encoded in existing networks — a practice known as transfer learning.
+
+Let’s move into that domain next.
