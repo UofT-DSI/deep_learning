@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 math: mathjax
 ---
@@ -79,7 +78,7 @@ $ echo "Data Sciences Institute"
 
 # Classification + Localization
 
-![](./images/05_doublehead.png)
+![bg right:50% w:500](./images/05_doublehead.png)
 
 * Use a pre-trained CNN on ImageNet (ex. ResNet)
 * The "localization head" is trained separately with regression
@@ -90,7 +89,7 @@ $ echo "Data Sciences Institute"
 
 # Classification + Localization
 
-![](./images/05_doublehead.png)
+![bg right:50% w:500](./images/05_doublehead.png)
 
 $C$ classes, $4$ output dimensions ($1$ box)
 **Predict exactly $N$ objects:** predict $(N \times 4)$ coordinates and $(N \times K)$ class scores
@@ -112,7 +111,7 @@ We don't know in advance the number of objects in the image. Object detection re
 ---
 
 # YOLO
-![w:500](./images/05_yolo1.png)
+![bg right:50% w:500](./images/05_yolo1.png)
 
 For each cell of the $S \times S$ predict:
 * $B$ **boxes** and **confidence scores** $C$ ($5 \times B$ values) + **classes** $c$
@@ -122,7 +121,7 @@ Redmon, Joseph, et al. "You only look once: Unified, real-time object detection.
 ---
 
 # YOLO
-![w:500](./images/05_yolo1.png)
+![bg right:50% w:500](./images/05_yolo1.png)
 
 Final detections: $C_j * prob(c) > \text{threshold}$
 
@@ -158,7 +157,7 @@ Girshick, Ross, et al. "Fast r-cnn." ICCV 2015
 
 # Faster-RCNN
 
-![w:300](./images/05_fasterrcnn.png)
+![bg right:50% w:500](./images/05_fasterrcnn.png)
 
 * Train jointly **RPN** and other head
 * 200 box proposals, gradient propagated only in positive boxes
@@ -184,7 +183,7 @@ Zeming Li et al. Light-Head R-CNN: In Defense of Two-Stage Object Detector 2017
 
 ## State-of-the-art
 
-![](./images/05_sotaresults3.png)
+![bg right:60% w:700](./images/05_sotaresults3.png)
 
 * Larger image sizes, larger and better models, better augmented data
 * https://paperswithcode.com/sota/object-detection-on-coco
@@ -210,19 +209,19 @@ Output a class map for each pixel (here: dog vs background)
 
 # Convolutionize
 
-![w:400](./images/05_convolutionalization.png)
+![bg right:40% w:400](./images/05_convolutionalization.png)
 
 * Slide the network with an input of `(224, 224)` over a larger image. Output of varying spatial size
 * **Convolutionize**: change Dense `(4096, 1000)` to $1 \times 1$ Convolution, with `4096, 1000` input and output channels
 * Gives a coarse **segmentation** (no extra supervision)
 
-Long, Jonathan, et al. "Fully convolutional networks for semantic segmentation." CVPR 2015
+`Long, Jonathan, et al. "Fully convolutional networks for semantic segmentation." CVPR 2015`
 
 ---
 
 # Fully Convolutional Network
 
-![w:400](./images/05_densefc.png)
+![bg right:50% w:500](./images/05_densefc.png)
 
 * Predict / backpropagate for every output pixel
 * Aggregate maps from several convolutions at different scales for more robust results
@@ -233,7 +232,7 @@ Long, Jonathan, et al. "Fully convolutional networks for semantic segmentation."
 
 ## Mask-RCNN
 
-![w:700](./images/05_maskrcnn.png)
+![bg right:50% w:500](./images/05_maskrcnn.png)
 
 Faster-RCNN architecture with a third, binary mask head
 
@@ -244,12 +243,12 @@ K. He and al. Mask Region-based Convolutional Network (Mask R-CNN) NIPS 2017
 
 # Results
 
-![](./images/05_maskrcnnresults.png)
+![w:700](./images/05_maskrcnnresults.png)
 
 * Mask results are still coarse (low mask resolution)
 * Excellent instance generalization
 
-K. He and al. Mask Region-based Convolutional Network (Mask R-CNN) NIPS 2017
+`K. He and al. Mask Region-based Convolutional Network (Mask R-CNN) NIPS 2017`
 
 ---
 

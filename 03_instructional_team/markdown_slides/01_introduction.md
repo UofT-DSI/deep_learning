@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -211,7 +210,7 @@ One lab will be dedicated to a short **Pytorch** introduction.
 ---
 # Computation Graph
 
-![w:800](./images/computation_graph_simple_f.png)
+![w:700](./images/computation_graph_simple_f.png)
 
 Neural network = parametrized, non-linear function
 

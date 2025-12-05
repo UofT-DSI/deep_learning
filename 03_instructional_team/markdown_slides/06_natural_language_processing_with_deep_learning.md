@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -128,7 +127,7 @@ Colobert et al. 2011, Mikolov, et al. 2013
 * Linear relations in Word2Vec embeddings
 * Many come from text structure (e.g. Wikipedia)
 
-Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." NIPS 2013
+`Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." NIPS 2013`
 
 ---
 
@@ -147,8 +146,6 @@ probability $P(w|\text{carrot})$ that $w$ occurs in the context of
 * (Self-)supervision comes from **context**.
 * Requires a lot of text data to cover rare words correctly.
 
-Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." NIPS 2013
-
 <!-- How to train fastText like model on this? -->
 
 ---
@@ -159,9 +156,9 @@ CBoW: representing the context as **Continuous Bag-of-Words**
 
 Self-supervision from large unlabeled corpus of text: *slide* over an **anchor word** and its **context**:
 
-![](./images/06_word2vec_words.png)
+![bg right:40% w:400](./images/06_word2vec_words.png)
 
-Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." NIPS 2013
+`Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." NIPS 2013`
 
 <!-- Question: dim of output embedding vs dim of input embedding -->
 

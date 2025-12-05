@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 math: mathjax
 ---
@@ -89,6 +88,7 @@ x = Dense(10, activation='softmax')(x)
 mlp = Model(inputs=input_image, outputs=x)
 ```
 
+---
 ### Convolutional Network
 
 ```python
@@ -258,7 +258,7 @@ Schematic from Stanford http://cs231n.github.io/convolutional-networks
 
 # AlexNet
 
-![w:600](./images/04_alexnet.png)
+![bg right:50% w:600](./images/04_alexnet.png)
 
 First conv layer: kernel 11x11x3x96 stride 4
 
@@ -272,8 +272,6 @@ Simplified version of Krizhevsky, Alex, Sutskever, and Hinton. "Imagenet classif
 ---
 
 ## AlexNet
-
-![w:600](./images/04_alexnet.png)
 
 
 ```md
@@ -302,9 +300,9 @@ FC8:       [1000]      1000 neurons (softmax logits)
 
 ## VGG-16
 
-![w:800](./images/04_vgg.png)
+![bg right:70% w:800](./images/04_vgg.png)
 
-Simonyan, Karen, and Zisserman. "Very deep convolutional networks for large-scale image recognition." (2014)
+`Simonyan, Karen, and Zisserman. "Very deep convolutional networks for large-scale image recognition." (2014)`
 
 ---
 
@@ -413,7 +411,7 @@ TOTAL parameters: 138M x 4 bytes ~= 552MB (x2 for plain SGD, x4 for Adam)
 ## ResNet
 
 
-![bg right:50% w:300](./images/04_resnet.png)
+![bg right:50% w:250](./images/04_resnet.png)
 
 Even deeper models:
 
@@ -427,7 +425,7 @@ Source: He, Kaiming, et al. "Deep residual learning for image recognition." CVPR
 ## ResNet
 
 
-![bg right:50% w:300](./images/04_resnet.png)
+![bg right:50% w:250](./images/04_resnet.png)
 
 A block learns the residual w.r.t. identity
 
@@ -440,7 +438,7 @@ Source: He, Kaiming, et al. "Deep residual learning for image recognition." CVPR
 
 ## ResNet
 
-![bg right:50% w:300](./images/04_resnet.png)
+![bg right:50% w:250](./images/04_resnet.png)
 
 ### ResNet50 Compared to VGG:
 
@@ -457,7 +455,7 @@ Source: He, Kaiming, et al. "Deep residual learning for image recognition." CVPR
 
 ![w:700](./images/04_deeper.png)
 
-from Kaiming He slides "Deep residual learning for image recognition." ICML. 2016.
+`from Kaiming He slides "Deep residual learning for image recognition." ICML. 2016.`
 
 ---
 
@@ -465,14 +463,14 @@ from Kaiming He slides "Deep residual learning for image recognition." ICML. 201
 
 * Finding right architectures: Active area of research
 
-![w:700](./images/04_inception2.png)
+![bg right:50% w:600](./images/04_inception2.png)
 
 
 Modular building blocks engineering
 see also DenseNets, Wide ResNets, Fractal ResNets, ResNeXts,
   Pyramidal ResNets
 
-Source: from  He slides "Deep residual learning for image recognition." ICML. 2016.
+`Source: from  He slides "Deep residual learning for image recognition." ICML. 2016.`
 
 ---
 
@@ -485,13 +483,18 @@ Source: from  He slides "Deep residual learning for image recognition." ICML. 20
 
 See also: https://paperswithcode.com/sota/image-classification-on-imagenet
 
-Canziani, Paszke, and Culurciello. "An Analysis of Deep Neural Network Models for Practical Applications." (May 2016).
+`Canziani, Paszke, and Culurciello. "An Analysis of Deep Neural Network Models for Practical Applications." (May 2016).`
 
 ---
 
 ## More ImageNet SOTA
 
-![w:350](./images/04_efficientnet.png) ![w:350](./images/04_vit.png)
+![w:500](./images/04_efficientnet.png)
+![w:500](./images/04_vit.png)
+
+---
+
+## More ImageNet SOTA
 
 * Mingxing Tan, Quoc V. Le, [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946), ICML 2019.
 * Irwan Bello, [LambdaNetworks: Modeling long-range Interactions without Attention](https://openreview.net/forum?id=xTJEN-ggl1b), ICLR 2021

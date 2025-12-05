@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -143,8 +142,6 @@ logistic regression is the same without the hidden layer
 
 ---
 # One Hidden Layer Network
-
-![w:800](./images/02_neural_network_hidden_5.png)
 
 ### Keras implementation
 ```py
