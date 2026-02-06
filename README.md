@@ -46,15 +46,15 @@ Assignments are a vital part of this module, focusing on the application of deep
 
 | Submission Deadline      | Materials Due                                                                                           |
 |-------------------------|-----------------------------------------------------------------------------------------------------------|
-| Sunday, October 26th    | [Assignment 1 Notebook](./02_activities/assignments/assignment_1.ipynb), [Lab 1](./01_materials/labs/lab_1.ipynb), [Lab 2](./01_materials/labs/lab_2.ipynb), [Lab 3](./01_materials/labs/lab_3.ipynb) |
-| Sunday, November 2nd    | [Assignment 2 Notebook](./02_activities/assignments/assignment_2.ipynb), [Lab 4](./01_materials/labs/lab_4.ipynb), [Lab 5](./01_materials/labs/lab_5.ipynb), [Lab 6](./01_materials/labs/lab_6.ipynb) |
+| Monday, February 16th    | [Assignment 1 Notebook](./02_activities/assignments/assignment_1.ipynb), [Lab 1](./01_materials/labs/lab_1.ipynb), [Lab 2](./01_materials/labs/lab_2.ipynb), [Lab 3](./01_materials/labs/lab_3.ipynb) |
+| Monday, February 23rd    | [Assignment 2 Notebook](./02_activities/assignments/assignment_2.ipynb), [Lab 4](./01_materials/labs/lab_4.ipynb), [Lab 5](./01_materials/labs/lab_5.ipynb), [Lab 6](./01_materials/labs/lab_6.ipynb) |
 
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
 
 **Notebook Completion**
 
-Participants are expected to complete the Jupyter notebooks associated with each session. Completion includes actively coding along with the Technical Facilitator and answering any questions in the notebooks. These notebooks are due by the end of each week, but it is highly recommended to complete them as you progress through the material to stay on top of the content. Notebooks are to be submitted for pass/fail assessment.
+Participants are expected to complete the Jupyter notebooks associated with each session. Completion includes actively coding along with the Technical Facilitator and answering any questions in the notebooks. These notebooks are due by the end of each week, but it is **highly** recommended to complete them as you progress through the material to stay on top of the content. Notebooks are to be submitted for pass/fail assessment.
 
 **Submitting Notebooks**
 
@@ -66,13 +66,13 @@ You may submit notebooks multiple times before the deadline. The last submission
 We hope all members of the module regularly participate. We define participation broadly and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
 ## Contacts
-**Questions can be submitted to the _#cohort-7-help-ml_ channel on Slack**
+**Questions can be submitted to the _#cohort-8-help-ml_ channel on Slack**
 
-* Technical Facilitator: **Alex Olson** he/him. Emails to the Technical Facilitator can be sent to alex.olson@utoronto.ca.
+* Technical Facilitator: **Nakul Upadhya** (he/him). Emails to the Technical Facilitator can be sent to nakul.upadhya@mail.utoronto.ca.
 * Learning Support Staff: 
   * **Tianyi Liu** tianyi@psi.toronto.edu
   * **Edward Chen** edwardty.chen@utoronto.ca
-  * **Nestor Rojas** nestor.rojas@live.com
+  * **Alex Yu** alexk.yu@mail.utoronto.ca
   
 
 ## Delivery of the Learning Module
@@ -88,12 +88,12 @@ This module's materials are adapted from the Deep Learning module taught at [Mas
 
 | Live Learning Session | Date | Topic                                                     | Slides                                                                                | Workbooks                               | Suggested Additional Material                                                                           |
 | ----- | ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 1     | Tuesday, October 21st  | Introduction to Deep Learning                             | [Slides](./01_materials/slides/01_introduction.pdf)                                   | [Lab 1 Workbook](./01_materials/labs/lab_1.ipynb) |                                                                                                         |
-| 2     | Wednesday, October 22nd  | Neural Networks and Backpropagation                       | [Slides](./01_materials/slides/02_neural_networks_and_backpropagation.pdf)            | [Lab 2 Workbook](./01_materials/labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
-| 3     | Thursday, October 23rd  | Embeddings and Recommender Systems                        | [Slides](./01_materials/slides/03_recommender_systems_&_embeddings.pdf)               | [Lab 3 Workbook](./01_materials/labs/lab_3.ipynb) |                                                                                                         |
-| 4     | Tuesday, October 28th  | Convolutional Neural Networks for Image Classification    | [Slides](./01_materials/slides/04_convolutional_neural_networks.pdf)                  | [Lab 4 Workbook](./01_materials/labs/lab_4.ipynb) |                                                                                                         |
-| 5     | Wednesday, October 29th  | Deep Learning for Object Detection and Image Segmentation | [Slides](./01_materials/slides/05_convolutional_neural_networks_part_II.pdf)          | [Lab 5 Workbook](./01_materials/labs/lab_5.ipynb) |                                                                                                         |
-| 6     | Thursday, October 30th  | Recurrent Neural Networks and NLP                         | [Slides](./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./01_materials/labs/lab_6.ipynb) |                                                                                                         |
+| 1     | Tuesday, February 10th  | Introduction to Deep Learning                             | [Slides](./01_materials/slides/01_introduction.pdf)                                   | [Lab 1 Workbook](./01_materials/labs/lab_1.ipynb) |                                                                                                         |
+| 2     | Wednesday, February 11th  | Neural Networks and Backpropagation                       | [Slides](./01_materials/slides/02_neural_networks_and_backpropagation.pdf)            | [Lab 2 Workbook](./01_materials/labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
+| 3     | Thursday, February 12th  | Embeddings and Recommender Systems                        | [Slides](./01_materials/slides/03_recommender_systems_&_embeddings.pdf)               | [Lab 3 Workbook](./01_materials/labs/lab_3.ipynb) |                                                                                                         |
+| 4     | Tuesday, February 17th  | Convolutional Neural Networks for Image Classification    | [Slides](./01_materials/slides/04_convolutional_neural_networks.pdf)                  | [Lab 4 Workbook](./01_materials/labs/lab_4.ipynb) |                                                                                                         |
+| 5     | Wednesday, February 18th  | Deep Learning for Object Detection and Image Segmentation | [Slides](./01_materials/slides/05_convolutional_neural_networks_part_II.pdf)          | [Lab 5 Workbook](./01_materials/labs/lab_5.ipynb) |                                                                                                         |
+| 6     | Thursday, February 19th  | Recurrent Neural Networks and NLP                         | [Slides](./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./01_materials/labs/lab_6.ipynb) |                                                                                                         |
  
 ### Requirements
 * Participants are expected to have completed Shell, Git, Python, Linear Regression, Classification, and Resampling, Production, and Algorithms & Data Structures learning modules.
