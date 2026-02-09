@@ -8,6 +8,7 @@ dependencies = [
     "ipython>=9.5.0",
     "keras>=3.11.3",
     "matplotlib>=3.10.6",
+    "umap-learn==0.5.7",
     "numpy>=2.3.3",
     "plotly>=6.3.0",
     "scikit-image>=0.25.2",
@@ -17,5 +18,5 @@ dependencies = [
     "tensorflow>=2.20.0",
     "torch>=2.8.0",
     "torchvision>=0.23.0",
-    "umap>=0.1.1",
+    "llvmlite>=0.45.0"
 ]
