@@ -68,7 +68,7 @@ $ echo "Data Sciences Institute"
 ---
 # DL Today: Speech-to-Text
 
-![w:800](./images/01_speech.png)DL Today: Vision
+![w:800](./images/01_speech.png)
 
 ---
 # DL Today: Vision
@@ -86,7 +86,6 @@ $ echo "Data Sciences Institute"
 # DL Today: NLP
 ![w:800](./images/01_nlp2.png)
 
-Most of chatbots claiming "AI" do not use Deep Learning (yet?)
 
 ---
 # DL Today: Vision + NLP
@@ -101,41 +100,21 @@ Most of chatbots claiming "AI" do not use Deep Learning (yet?)
 ---
 # DL Today: Generative models
 
-![w:800](./images/nvidia_celeb.jpg)
-
-sampled celebrities [Nvidia 2017]
-
----
-# DL Today: Generative models
-
 ![w:800](./images/stackgan.jpg)
 
 StackGAN v2 [Zhang 2017]
-
-
----
-# DL Today: Generative models
-
-![w:800](./images/WaveNet.gif)
-
-Sound generation with WaveNet [DeepMind 2017]
 
 ---
 # DL Today: Generative models
 
 Guess which one is generated?
 
-[columbia_gen](./audio/columbia_gen.wav)
-[columbia_gt](./audio/columbia_gt.wav)
-
-*Tacotron 2 Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions, 2017*
+![w:800](./images/nano_banana.png)
 
 ---
-# Language / Image models
+# DL Today: Generative models
 
-Open-AI GPT-3, or DALL-E: https://openai.com/blog/dall-e/
-
-![w:800](./images/01_dalle.png)
+![w:800](./images/claude_code.png)
 
 ---
 
