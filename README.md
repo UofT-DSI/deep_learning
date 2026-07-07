@@ -1,18 +1,24 @@
 # Deep Learning
 
 ## Contents
-* [Description](#description)
-* [Learning Outcomes](#learning-outcomes)
-* [Assignments](#assignments)
-* [Contacts](#contacts)
-* [Delivery of the Learning Module](#delivery-of-the-learning-module)
-* [Schedule](#schedule)
-* [Requirements](#requirements)
-* [Resources](#resources)
-    + [Documents](#documents)
-    + [Videos](#videos)
-    + [How to get help](#how-to-get-help)
-* [Folder Structure](#folder-structure)
+- [Deep Learning](#deep-learning)
+  - [Contents](#contents)
+  - [Description](#description)
+  - [Learning Outcomes](#learning-outcomes)
+  - [Assignments](#assignments)
+  - [Contacts](#contacts)
+  - [Delivery of the Learning Module](#delivery-of-the-learning-module)
+  - [Schedule](#schedule)
+    - [Requirements](#requirements)
+  - [Resources](#resources)
+    - [Documents](#documents)
+    - [Videos](#videos)
+    - [How to Get Help](#how-to-get-help)
+      - [1. Gather information about your problem](#1-gather-information-about-your-problem)
+      - [2. Try searching the web for your error message](#2-try-searching-the-web-for-your-error-message)
+      - [3. Try asking in your cohort's Slack help channel](#3-try-asking-in-your-cohorts-slack-help-channel)
+      - [Great resources on how to ask good technical questions that get useful answers](#great-resources-on-how-to-ask-good-technical-questions-that-get-useful-answers)
+  - [Folder Structure](#folder-structure)
 
 ## Description
 This module offers both fundamental understanding and practical skills necessary to develop, implement, test, and validate various deep learning models. The curriculum delves into the core concepts of Deep Learning, emphasizing its application across diverse domains. Participants will explore the intricacies of neural networks, backpropagation, and the advanced architectures used in image processing, natural language processing, and more.
@@ -46,8 +52,8 @@ Assignments are a vital part of this module, focusing on the application of deep
 
 | Submission Deadline      | Materials Due                                                                                           |
 |-------------------------|-----------------------------------------------------------------------------------------------------------|
-| Monday, February 16th    | [Assignment 1 Notebook](./02_activities/assignments/assignment_1.ipynb), [Lab 1](./01_materials/labs/lab_1.ipynb), [Lab 2](./01_materials/labs/lab_2.ipynb), [Lab 3](./01_materials/labs/lab_3.ipynb) |
-| Monday, February 23rd    | [Assignment 2 Notebook](./02_activities/assignments/assignment_2.ipynb), [Lab 4](./01_materials/labs/lab_4.ipynb), [Lab 5](./01_materials/labs/lab_5.ipynb), [Lab 6](./01_materials/labs/lab_6.ipynb) |
+| Friday, July 10th    | [Assignment 1 Notebook](./02_activities/assignments/assignment_1.ipynb), [Lab 1](./01_materials/labs/lab_1.ipynb), [Lab 2](./01_materials/labs/lab_2.ipynb), [Lab 3](./01_materials/labs/lab_3.ipynb) |
+| Friday, July 17th    | [Assignment 2 Notebook](./02_activities/assignments/assignment_2.ipynb), [Lab 4](./01_materials/labs/lab_4.ipynb), [Lab 5](./01_materials/labs/lab_5.ipynb), [Lab 6](./01_materials/labs/lab_6.ipynb) |
 
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
@@ -66,13 +72,12 @@ You may submit notebooks multiple times before the deadline. The last submission
 We hope all members of the module regularly participate. We define participation broadly and include attendance, asking questions, answering others' questions, participating in discussions, etc.
 
 ## Contacts
-**Questions can be submitted to the _#cohort-8-help-ml_ channel on Slack**
+**Questions can be submitted to the _#mlf1-help_ channel on Slack**
 
 * Technical Facilitator: **Nakul Upadhya** (he/him). Emails to the Technical Facilitator can be sent to nakul.upadhya@mail.utoronto.ca.
 * Learning Support Staff: 
   * **Tianyi Liu** tianyi@psi.toronto.edu
-  * **Edward Chen** edwardty.chen@utoronto.ca
-  * **Alex Yu** alexk.yu@mail.utoronto.ca
+  * **Ernani Fantinatti** ernanif@fantinatti.com
   
 
 ## Delivery of the Learning Module
@@ -88,12 +93,12 @@ This module's materials are adapted from the Deep Learning module taught at [Mas
 
 | Live Learning Session | Date | Topic                                                     | Slides                                                                                | Workbooks                               | Suggested Additional Material                                                                           |
 | ----- | ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 1     | Tuesday, February 10th  | Introduction to Deep Learning                             | [Slides](./01_materials/slides/01_introduction.pdf)                                   | [Lab 1 Workbook](./01_materials/labs/lab_1.ipynb) |                                                                                                         |
-| 2     | Wednesday, February 11th  | Neural Networks and Backpropagation                       | [Slides](./01_materials/slides/02_neural_networks_and_backpropagation.pdf)            | [Lab 2 Workbook](./01_materials/labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
-| 3     | Thursday, February 12th  | Embeddings and Recommender Systems                        | [Slides](./01_materials/slides/03_recommender_systems_&_embeddings.pdf)               | [Lab 3 Workbook](./01_materials/labs/lab_3.ipynb) |                                                                                                         |
-| 4     | Tuesday, February 17th  | Convolutional Neural Networks for Image Classification    | [Slides](./01_materials/slides/04_convolutional_neural_networks.pdf)                  | [Lab 4 Workbook](./01_materials/labs/lab_4.ipynb) |                                                                                                         |
-| 5     | Wednesday, February 18th  | Deep Learning for Object Detection and Image Segmentation | [Slides](./01_materials/slides/05_convolutional_neural_networks_part_II.pdf)          | [Lab 5 Workbook](./01_materials/labs/lab_5.ipynb) |                                                                                                         |
-| 6     | Thursday, February 19th  | Recurrent Neural Networks and NLP                         | [Slides](./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./01_materials/labs/lab_6.ipynb) |                                                                                                         |
+| 1     | Tuesday, June 30th  | Introduction to Deep Learning                             | [Slides](./01_materials/slides/01_introduction.pdf)                                   | [Lab 1 Workbook](./01_materials/labs/lab_1.ipynb) |                                                                                                         |
+| 2     | Thursday, July 2nd  | Neural Networks and Backpropagation                       | [Slides](./01_materials/slides/02_neural_networks_and_backpropagation.pdf)            | [Lab 2 Workbook](./01_materials/labs/lab_2.ipynb) | [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) |
+| 3     | Tuesday, July 7th  | Embeddings and Recommender Systems                        | [Slides](./01_materials/slides/03_recommender_systems_&_embeddings.pdf)               | [Lab 3 Workbook](./01_materials/labs/lab_3.ipynb) |                                                                                                         |
+| 4     | Wednesday, July 8th  | Convolutional Neural Networks for Image Classification    | [Slides](./01_materials/slides/04_convolutional_neural_networks.pdf)                  | [Lab 4 Workbook](./01_materials/labs/lab_4.ipynb) |                                                                                                         |
+| 5     | Thursday, July 9th  | Deep Learning for Object Detection and Image Segmentation | [Slides](./01_materials/slides/05_convolutional_neural_networks_part_II.pdf)          | [Lab 5 Workbook](./01_materials/labs/lab_5.ipynb) |                                                                                                         |
+| 6     | Tuesday, July 14th  | Recurrent Neural Networks and NLP                         | [Slides](./01_materials/slides/06_natural_language_processing_with_deep_learning.pdf) | [Lab 6 Workbook](./01_materials/labs/lab_6.ipynb) |                                                                                                         |
  
 ### Requirements
 * Participants are expected to have completed Shell, Git, Python, Linear Regression, Classification, and Resampling, Production, and Algorithms & Data Structures learning modules.
