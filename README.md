@@ -52,8 +52,8 @@ Assignments are a vital part of this module, focusing on the application of deep
 
 | Submission Deadline      | Materials Due                                                                                           |
 |-------------------------|-----------------------------------------------------------------------------------------------------------|
-| Friday, Nov 6th    | [Assignment 1 Notebook](./02_activities/assignments/assignment_1.ipynb), [Lab 1](./01_materials/labs/lab_1.ipynb), [Lab 2](./01_materials/labs/lab_2.ipynb), [Lab 3](./01_materials/labs/lab_3.ipynb) |
-| Friday, Nov 13th    | [Assignment 2 Notebook](./02_activities/assignments/assignment_2.ipynb), [Lab 4](./01_materials/labs/lab_4.ipynb), [Lab 5](./01_materials/labs/lab_5.ipynb), [Lab 6](./01_materials/labs/lab_6.ipynb) |
+| Monday, Nov 9th    | [Assignment 1 Notebook](./02_activities/assignments/assignment_1.ipynb), [Lab 1](./01_materials/labs/lab_1.ipynb), [Lab 2](./01_materials/labs/lab_2.ipynb), [Lab 3](./01_materials/labs/lab_3.ipynb) |
+| Tuesday, Nov 17th    | [Assignment 2 Notebook](./02_activities/assignments/assignment_2.ipynb), [Lab 4](./01_materials/labs/lab_4.ipynb), [Lab 5](./01_materials/labs/lab_5.ipynb), [Lab 6](./01_materials/labs/lab_6.ipynb) |
 
 
 You may submit assignments multiple times before the deadline. The last submission will be graded.
